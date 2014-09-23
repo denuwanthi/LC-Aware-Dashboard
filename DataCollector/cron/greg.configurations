@@ -1,0 +1,16 @@
+GREG_HOME       =   /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ESM3/storeonly/testforDefaultLCState/wso2es-1.2.0-SNAPSHOT
+BAM_HOME        =   /home/denuwanthi/G-reg/Feature-LCDashboard/datacollector/BAM/wso2bam-2.4.1
+
+BAM_HOST_NAME   =   localhost
+BAM_PORT        =   7612
+BAM_USERNAME    =   admin
+
+GREG_URL        =   https://localhost:9443/admin/registry/
+GREG_USERNAME   =   admin
+
+WSO2_BAMBOO_URL =   https://wso2.org/bamboo/rest/api/latest
+WSO2_GIT_URL    =   https://api.github.com/repos/
+WSO2_JENKINS_URL =  http://localhost:8080/
+
+GTIHUB_TOKEN    =   token 9c52f8a6a0051059051f8ab3ae9ec110efaa20a5
+

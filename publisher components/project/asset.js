@@ -80,6 +80,8 @@ asset.server = function(ctx) {
         }
     };
 };
+
+//Add ServiceLifeCycle
 asset.configure = function() {
     return {
         table: {

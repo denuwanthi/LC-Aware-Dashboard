@@ -98,9 +98,8 @@ asset.configure = function() {
         },
         meta: {
             lifecycle: {
-                name: 'SampleLifeCycle2',
+                name: 'ServiceLifeCycle',
                 commentRequired: true,
-                defaultAction: 'Promote'
             },
             ui: {
                 icon: 'icon-cog'

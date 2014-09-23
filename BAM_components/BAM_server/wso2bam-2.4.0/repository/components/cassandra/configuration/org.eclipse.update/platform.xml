@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config transient="false" date="1382722315396">
+	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="platform:/base/">
+		<feature id="org.wso2.carbon.core.common" url="features/org.wso2.carbon.core.common_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.core.server" url="features/org.wso2.carbon.core.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.common" url="features/org.wso2.carbon.cassandra.common_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.core.runtime" url="features/org.wso2.carbon.core.runtime_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.server" url="features/org.wso2.carbon.cassandra.server_4.2.0/" version="4.2.0">
+		</feature>
+	</site>
+</config>

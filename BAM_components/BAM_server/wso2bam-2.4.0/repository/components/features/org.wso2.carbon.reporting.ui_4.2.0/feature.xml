@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.reporting.ui" label="WSO2 Carbon - Reporting UI Feature" provider-name="%providerName" version="4.2.0">
+  <description>This feature contains the bundles required for Reporting front-end functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.ui.menu.tools" unpack="false" version="4.2.0"/>
+  <plugin id="org.wso2.carbon.reporting.stub" unpack="false" version="4.2.0"/>
+  <plugin id="org.wso2.carbon.reporting.util" unpack="false" version="4.2.0"/>
+  <plugin id="org.wso2.carbon.reporting.ui" unpack="false" version="4.2.0"/>
+  <plugin id="org.wso2.carbon.reporting.api" unpack="false" version="4.2.0"/>
+  <require>
+    <import match="equivalent" plugin="jasper-jdt" version="6.0.18.wso2v1"/>
+    <import match="equivalent" plugin="jxl" version="2.6.8.wso2v1"/>
+    <import match="equivalent" plugin="itext" version="2.1.7.wso2v1"/>
+    <import match="equivalent" plugin="jfreechart" version="1.0.13.wso2v1"/>
+    <import match="equivalent" plugin="jcommon" version="1.0.15.wso2v1"/>
+    <import match="equivalent" plugin="commons-digester" version="1.8.1.wso2v1"/>
+    <import match="equivalent" plugin="jasperreports" version="4.5.0.wso2v1"/>
+    <import match="equivalent" plugin="commons-beanutils" version="1.8.0.wso2v1"/>
+    <import feature="org.wso2.carbon.core.ui" match="equivalent" version="4.2.0"/>
+  </require>
+</feature>

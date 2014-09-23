@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><serviceGroup name="org.wso2.carbon.bam.toolbox.deployer" successfullyAdded="true">
+    <parameter name="adminService" locked="true">false</parameter>
+    <parameter name="AuthorizationAction" locked="true">/permission/admin/manage</parameter>
+    <parameter name="hiddenService" locked="true">true</parameter>
+    <service name="BAMToolboxDepolyerService" serviceDocumentation="BAMToolboxDepolyerService" exposedAllTransports="false" serviceDeployedTime="1410954073438" successfullyAdded="true">
+        <operation name="deployBasicToolBox">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="deployToolBoxFromURL">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="downloadToolBox">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="uploadBAMToolBox">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getBasicToolBoxes">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getDeployedToolBoxes">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getJaggeryDashboards">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="undeployToolBox">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <bindings>
+            <binding name="BAMToolboxDepolyerServiceSoap12Binding">
+                <operation name="deployBasicToolBox"/>
+                <operation name="uploadBAMToolBox"/>
+                <operation name="downloadToolBox"/>
+                <operation name="deployToolBoxFromURL"/>
+                <operation name="getBasicToolBoxes"/>
+                <operation name="getDeployedToolBoxes"/>
+                <operation name="getJaggeryDashboards"/>
+                <operation name="undeployToolBox"/>
+            </binding>
+            <binding name="BAMToolboxDepolyerServiceSoap11Binding">
+                <operation name="deployBasicToolBox"/>
+                <operation name="uploadBAMToolBox"/>
+                <operation name="downloadToolBox"/>
+                <operation name="deployToolBoxFromURL"/>
+                <operation name="getBasicToolBoxes"/>
+                <operation name="getDeployedToolBoxes"/>
+                <operation name="getJaggeryDashboards"/>
+                <operation name="undeployToolBox"/>
+            </binding>
+            <binding name="BAMToolboxDepolyerServiceHttpBinding">
+                <operation name="deployBasicToolBox"/>
+                <operation name="uploadBAMToolBox"/>
+                <operation name="downloadToolBox"/>
+                <operation name="deployToolBoxFromURL"/>
+                <operation name="getBasicToolBoxes"/>
+                <operation name="getDeployedToolBoxes"/>
+                <operation name="getJaggeryDashboards"/>
+                <operation name="undeployToolBox"/>
+            </binding>
+        </bindings>
+        <policies/>
+        <module name="addressing" version="4.2.0" type="engagedModules"/>
+        <parameter name="enableMTOM" locked="false">true</parameter>
+        <parameter name="ServiceClass">
+        org.wso2.carbon.bam.toolbox.deployer.service.BAMToolBoxUploaderService
+    </parameter>
+        <association destinationPath="/repository/transports/https/listener" type="exposedTransports"/>
+    </service>
+</serviceGroup>

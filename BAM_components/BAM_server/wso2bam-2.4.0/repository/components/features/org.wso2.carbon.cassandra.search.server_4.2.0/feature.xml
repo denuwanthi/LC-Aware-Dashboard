@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.cassandra.search.server" label="WSO2 Carbon - Cassandra Search Server Feature" provider-name="%providerName" version="4.2.0">
+  <description>This feature contains the bundles required for Search Cassandra Data</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="libthrift" unpack="false" version="0.7.0.wso2v2"/>
+  <plugin id="org.wso2.carbon.databridge.commons" unpack="false" version="4.2.1"/>
+  <plugin id="guava" unpack="false" version="12.0.0.wso2v1"/>
+  <plugin id="hector-core" unpack="false" version="1.1.0.wso2v1"/>
+  <plugin id="slf4j.api" unpack="false" version="1.6.1"/>
+  <plugin id="perf4j" unpack="false" version="0.9.12.wso2v1"/>
+  <plugin id="org.wso2.carbon.cassandra.search.mgt" unpack="false" version="4.2.0"/>
+  <plugin id="high-scale-lib" unpack="false" version="1.1.2.wso2v1"/>
+  <plugin id="slf4j.log4j12" unpack="false" version="1.6.1"/>
+  <require>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.2.0"/>
+  </require>
+</feature>

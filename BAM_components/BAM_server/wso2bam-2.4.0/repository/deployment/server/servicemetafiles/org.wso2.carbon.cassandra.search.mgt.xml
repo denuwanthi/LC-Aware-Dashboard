@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><serviceGroup name="org.wso2.carbon.cassandra.search.mgt" successfullyAdded="true">
+    <service name="CassandraSearchAdmin" serviceDocumentation="CassandraSearchAdmin" exposedAllTransports="false" serviceDeployedTime="1410954073596" successfullyAdded="true">
+        <operation name="getActivitySearchResultsAsJson">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getEventsForActivityAsJson">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="isValidQuery">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="connectAndGetCassandraCluster">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getTimestampFromString">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getColumnInformationForRowFromCluster">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getEventSearchResultsFromCluster">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="connectToCassandraCluster">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getEventsForActivityFromCluster">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getEventsForActivity">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getEventSearchResults">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getActivitySearchResults">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getColumnInformationForRow">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getActivitySearchResultsFromCluster">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getTimestampString">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="isValidSearchQuery">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <bindings>
+            <binding name="CassandraSearchAdminHttpBinding">
+                <operation name="getEventsForActivityAsJson"/>
+                <operation name="getActivitySearchResultsAsJson"/>
+                <operation name="isValidQuery"/>
+                <operation name="connectAndGetCassandraCluster"/>
+                <operation name="getTimestampFromString"/>
+                <operation name="getEventSearchResultsFromCluster"/>
+                <operation name="getColumnInformationForRowFromCluster"/>
+                <operation name="connectToCassandraCluster"/>
+                <operation name="getEventsForActivity"/>
+                <operation name="getEventsForActivityFromCluster"/>
+                <operation name="getEventSearchResults"/>
+                <operation name="getActivitySearchResults"/>
+                <operation name="getColumnInformationForRow"/>
+                <operation name="getActivitySearchResultsFromCluster"/>
+                <operation name="getTimestampString"/>
+                <operation name="isValidSearchQuery"/>
+            </binding>
+            <binding name="CassandraSearchAdminSoap11Binding">
+                <operation name="getEventsForActivityAsJson"/>
+                <operation name="getActivitySearchResultsAsJson"/>
+                <operation name="isValidQuery"/>
+                <operation name="connectAndGetCassandraCluster"/>
+                <operation name="getTimestampFromString"/>
+                <operation name="getEventSearchResultsFromCluster"/>
+                <operation name="getColumnInformationForRowFromCluster"/>
+                <operation name="connectToCassandraCluster"/>
+                <operation name="getEventsForActivity"/>
+                <operation name="getEventsForActivityFromCluster"/>
+                <operation name="getEventSearchResults"/>
+                <operation name="getActivitySearchResults"/>
+                <operation name="getColumnInformationForRow"/>
+                <operation name="getActivitySearchResultsFromCluster"/>
+                <operation name="getTimestampString"/>
+                <operation name="isValidSearchQuery"/>
+            </binding>
+            <binding name="CassandraSearchAdminSoap12Binding">
+                <operation name="getEventsForActivityAsJson"/>
+                <operation name="getActivitySearchResultsAsJson"/>
+                <operation name="isValidQuery"/>
+                <operation name="connectAndGetCassandraCluster"/>
+                <operation name="getTimestampFromString"/>
+                <operation name="getEventSearchResultsFromCluster"/>
+                <operation name="getColumnInformationForRowFromCluster"/>
+                <operation name="connectToCassandraCluster"/>
+                <operation name="getEventsForActivity"/>
+                <operation name="getEventsForActivityFromCluster"/>
+                <operation name="getEventSearchResults"/>
+                <operation name="getActivitySearchResults"/>
+                <operation name="getColumnInformationForRow"/>
+                <operation name="getActivitySearchResultsFromCluster"/>
+                <operation name="getTimestampString"/>
+                <operation name="isValidSearchQuery"/>
+            </binding>
+        </bindings>
+        <policies/>
+        <module name="addressing" version="4.2.0" type="engagedModules"/>
+        <parameter name="enableMTOM" locked="false">false</parameter>
+        <parameter name="adminService" locked="ture">true</parameter>
+        <parameter name="ServiceClass" locked="false">
+            org.wso2.carbon.cassandra.search.service.CassandraSearchAdmin
+        </parameter>
+        <parameter name="AuthorizationAction" locked="true">/permission/admin/</parameter>
+        <association destinationPath="/repository/transports/https/listener" type="exposedTransports"/>
+    </service>
+</serviceGroup>

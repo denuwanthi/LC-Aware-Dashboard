@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><serviceGroup name="org.wso2.carbon.bam.messagestore" successfullyAdded="true">
+    <parameter name="adminService" locked="true">false</parameter>
+    <parameter name="hiddenService" locked="true">false</parameter>
+    <service name="BAMMessageStoreService" serviceDocumentation="BAMMessageStoreService" exposedAllTransports="false" serviceDeployedTime="1410954073389" successfullyAdded="true">
+        <operation name="clearData">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getData">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="setData">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <bindings>
+            <binding name="BAMMessageStoreServiceSoap12Binding">
+                <operation name="clearData"/>
+                <operation name="getData"/>
+                <operation name="setData"/>
+            </binding>
+            <binding name="BAMMessageStoreServiceSoap11Binding">
+                <operation name="clearData"/>
+                <operation name="getData"/>
+                <operation name="setData"/>
+            </binding>
+            <binding name="BAMMessageStoreServiceHttpBinding">
+                <operation name="clearData"/>
+                <operation name="getData"/>
+                <operation name="setData"/>
+            </binding>
+        </bindings>
+        <policies/>
+        <module name="addressing" version="4.2.0" type="engagedModules"/>
+        <parameter name="ServiceClass">
+            org.wso2.carbon.bam.messagestore.MessageStoreService
+        </parameter>
+        <association destinationPath="/repository/transports/https/listener" type="exposedTransports"/>
+        <association destinationPath="/repository/transports/http/listener" type="exposedTransports"/>
+    </service>
+</serviceGroup>

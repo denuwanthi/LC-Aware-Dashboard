@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.reporting" label="WSO2 Carbon - Reporting Feature" provider-name="%providerName" version="4.2.0">
+  <description>This feature contains the bundles required for Reporting</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <require>
+    <import feature="org.wso2.carbon.core" match="equivalent" version="4.2.0"/>
+  </require>
+  <includes id="org.wso2.carbon.reporting.server" optional="false" version="4.2.1"/>
+  <includes id="org.wso2.carbon.reporting.template.server" optional="false" version="4.2.0"/>
+  <includes id="org.wso2.carbon.reporting.ui" optional="false" version="4.2.0"/>
+  <includes id="org.wso2.carbon.reporting.template.ui" optional="false" version="4.2.0"/>
+</feature>

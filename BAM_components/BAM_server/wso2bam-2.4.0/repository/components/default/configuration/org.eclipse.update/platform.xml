@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config transient="false" date="1382722334945">
+	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="platform:/base/">
+		<feature id="org.wso2.carbon.dashboard.mgt.gadgetrepo.ui" url="features/org.wso2.carbon.dashboard.mgt.gadgetrepo.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.bam.toolbox.deployer.ui" url="features/org.wso2.carbon.bam.toolbox.deployer.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.input.adaptor.manager.ui" url="features/org.wso2.carbon.event.input.adaptor.manager.ui_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.security.mgt.server" url="features/org.wso2.carbon.security.mgt.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.bam.jmx.agent.server" url="features/org.wso2.carbon.bam.jmx.agent.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.ntask.core" url="features/org.wso2.carbon.ntask.core_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.mgt.ui" url="features/org.wso2.carbon.cassandra.mgt.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adaptor.email.server" url="features/org.wso2.carbon.event.output.adaptor.email.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.gadgetgenwizard" url="features/org.wso2.carbon.gadgetgenwizard_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.input.adaptor.server" url="features/org.wso2.carbon.event.input.adaptor.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core.common" url="features/org.wso2.carbon.registry.core.common_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adaptor.wsevent.server" url="features/org.wso2.carbon.event.output.adaptor.wsevent.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.bam.messagestore.server" url="features/org.wso2.carbon.bam.messagestore.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.receiver.thrift.server" url="features/org.wso2.carbon.databridge.receiver.thrift.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.registry.resource.properties.server" url="features/org.wso2.carbon.registry.resource.properties.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.gadgetgenwizard.server" url="features/org.wso2.carbon.gadgetgenwizard.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.bam.jmx.agent" url="features/org.wso2.carbon.bam.jmx.agent_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.input.adaptor" url="features/org.wso2.carbon.event.input.adaptor_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.reporting.template.server" url="features/org.wso2.carbon.reporting.template.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.reporting.server" url="features/org.wso2.carbon.reporting.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.identity.authenticator.saml2.sso.server" url="features/org.wso2.carbon.identity.authenticator.saml2.sso.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.bam.dashboard.server" url="features/org.wso2.carbon.bam.dashboard.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.stratos.common.ui" url="features/org.wso2.carbon.stratos.common.ui_2.2.0/" version="2.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.tracer.ui" url="features/org.wso2.carbon.event.tracer.ui_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.jaxws.webapp.mgt.server" url="features/org.wso2.carbon.jaxws.webapp.mgt.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.bam.dashboard.ui" url="features/org.wso2.carbon.bam.dashboard.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.explorer" url="features/org.wso2.carbon.cassandra.explorer_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core.ui" url="features/org.wso2.carbon.registry.core.ui_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.event" url="features/org.wso2.carbon.event_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.event.common" url="features/org.wso2.carbon.event.common_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.bam.jmx.agent.ui" url="features/org.wso2.carbon.bam.jmx.agent.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.commons.thrift.server" url="features/org.wso2.carbon.databridge.commons.thrift.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.dashboard.mgt.users" url="features/org.wso2.carbon.dashboard.mgt.users_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adaptor.sms.server" url="features/org.wso2.carbon.event.output.adaptor.sms.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.load.balance.agent.server" url="features/org.wso2.carbon.load.balance.agent.server_2.2.0/" version="2.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.gadgetgenwizard.ui" url="features/org.wso2.carbon.gadgetgenwizard.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.application.mgt.ui" url="features/org.wso2.carbon.application.mgt.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.streamdefn.cassandra.server" url="features/org.wso2.carbon.databridge.streamdefn.cassandra.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.builder.server" url="features/org.wso2.carbon.event.builder.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adaptor.manager.server" url="features/org.wso2.carbon.event.output.adaptor.manager.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.processor.server" url="features/org.wso2.carbon.event.processor.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.statistics" url="features/org.wso2.carbon.event.statistics_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.input.adaptor.wsevent.local.server" url="features/org.wso2.carbon.event.input.adaptor.wsevent.local.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.reporting.template.ui" url="features/org.wso2.carbon.reporting.template.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.core.runtime" url="features/org.wso2.carbon.core.runtime_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.builder" url="features/org.wso2.carbon.event.builder_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.analytics.server" url="features/org.wso2.carbon.analytics.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.dashboard.server" url="features/org.wso2.carbon.dashboard.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.security.mgt.ui" url="features/org.wso2.carbon.security.mgt.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.webapp.mgt.server" url="features/org.wso2.carbon.webapp.mgt.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.event.statistics.server" url="features/org.wso2.carbon.event.statistics.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.input.adaptor.email.server" url="features/org.wso2.carbon.event.input.adaptor.email.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.analytics.hive.ui" url="features/org.wso2.carbon.analytics.hive.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.analytics" url="features/org.wso2.carbon.analytics_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.identity.authenticator.saml2.sso.ui" url="features/org.wso2.carbon.identity.authenticator.saml2.sso.ui_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.user.mgt.server" url="features/org.wso2.carbon.user.mgt.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.core.server" url="features/org.wso2.carbon.databridge.core.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.cassandra" url="features/org.wso2.carbon.databridge.cassandra_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.core.ui" url="features/org.wso2.carbon.core.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.input.adaptor.wso2event.server" url="features/org.wso2.carbon.event.input.adaptor.wso2event.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.user.mgt.ui" url="features/org.wso2.carbon.user.mgt.ui_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.registry.social" url="features/org.wso2.carbon.registry.social_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.ndatasource.ui" url="features/org.wso2.carbon.ndatasource.ui_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.gadget.editor.ui" url="features/org.wso2.carbon.gadget.editor.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adaptor.manager.ui" url="features/org.wso2.carbon.event.output.adaptor.manager.ui_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.mgt" url="features/org.wso2.carbon.cassandra.mgt_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.dashboard.ui" url="features/org.wso2.carbon.dashboard.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.reporting.ui" url="features/org.wso2.carbon.reporting.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.processor.ui" url="features/org.wso2.carbon.event.processor.ui_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.analytics.hive.server" url="features/org.wso2.carbon.analytics.hive.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.core.common" url="features/org.wso2.carbon.core.common_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.processor" url="features/org.wso2.carbon.event.processor_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.server" url="features/org.wso2.carbon.event.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adaptor.mysql.server" url="features/org.wso2.carbon.event.output.adaptor.mysql.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.stream.manager" url="features/org.wso2.carbon.event.stream.manager_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.bam.cassandra.data.archive" url="features/org.wso2.carbon.bam.cassandra.data.archive_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.user.mgt" url="features/org.wso2.carbon.user.mgt_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.stratos.common" url="features/org.wso2.carbon.stratos.common_2.2.0/" version="2.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adaptor" url="features/org.wso2.carbon.event.output.adaptor_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.core" url="features/org.wso2.carbon.core_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.gadget.editor" url="features/org.wso2.carbon.gadget.editor_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.formatter" url="features/org.wso2.carbon.event.formatter_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adaptor.wsevent.local.server" url="features/org.wso2.carbon.event.output.adaptor.wsevent.local.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra" url="features/org.wso2.carbon.cassandra_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core" url="features/org.wso2.carbon.registry.core_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.commons.server" url="features/org.wso2.carbon.databridge.commons.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adaptor.server" url="features/org.wso2.carbon.event.output.adaptor.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.dashboard.mgt.gadgetrepo.server" url="features/org.wso2.carbon.dashboard.mgt.gadgetrepo.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.dashboard.mgt.users.ui" url="features/org.wso2.carbon.dashboard.mgt.users.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.stream.manager.server" url="features/org.wso2.carbon.event.stream.manager.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.explorer.ui" url="features/org.wso2.carbon.cassandra.explorer.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.receiver.restapi.server" url="features/org.wso2.carbon.databridge.receiver.restapi.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.agent.thrift.server" url="features/org.wso2.carbon.databridge.agent.thrift.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.dataaccess" url="features/org.wso2.carbon.cassandra.dataaccess_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.formatter.server" url="features/org.wso2.carbon.event.formatter.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adaptor.jms.server" url="features/org.wso2.carbon.event.output.adaptor.jms.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.stratos.common.server" url="features/org.wso2.carbon.stratos.common.server_2.2.0/" version="2.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.analytics.ui" url="features/org.wso2.carbon.analytics.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.registry.core.server" url="features/org.wso2.carbon.registry.core.server_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.dashboard.gadgetrepopopulator.server" url="features/org.wso2.carbon.dashboard.gadgetrepopopulator.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.registry.search.ui" url="features/org.wso2.carbon.registry.search.ui_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.registry.resource.properties.ui" url="features/org.wso2.carbon.registry.resource.properties.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.bam.toolbox.deployer" url="features/org.wso2.carbon.bam.toolbox.deployer_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.stratos.bam.dashboard.ui" url="features/org.wso2.stratos.bam.dashboard.ui_2.2.0/" version="2.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.stream.manager.ui" url="features/org.wso2.carbon.event.stream.manager.ui_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adaptor.cassandra.server" url="features/org.wso2.carbon.event.output.adaptor.cassandra.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.common" url="features/org.wso2.carbon.cassandra.common_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.captcha.mgt.server" url="features/org.wso2.carbon.captcha.mgt.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.bam.dashboard" url="features/org.wso2.carbon.bam.dashboard_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.bam.notification.task.server" url="features/org.wso2.carbon.bam.notification.task.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.registry.ui.menu" url="features/org.wso2.carbon.registry.ui.menu_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.tracer" url="features/org.wso2.carbon.event.tracer_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.formatter.ui" url="features/org.wso2.carbon.event.formatter.ui_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.ndatasource" url="features/org.wso2.carbon.ndatasource_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.dashboard" url="features/org.wso2.carbon.dashboard_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.statistics.ui" url="features/org.wso2.carbon.event.statistics.ui_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.bam.styles" url="features/org.wso2.bam.styles_2.4.0/" version="2.4.0">
+		</feature>
+		<feature id="org.wso2.carbon.bam.cassandra.data.archive.server" url="features/org.wso2.carbon.bam.cassandra.data.archive.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.input.adaptor.jms.server" url="features/org.wso2.carbon.event.input.adaptor.jms.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.explorer.server" url="features/org.wso2.carbon.cassandra.explorer.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.bam.cassandra.data.archive.ui" url="features/org.wso2.carbon.bam.cassandra.data.archive.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.datareceiver" url="features/org.wso2.carbon.databridge.datareceiver_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.datapublisher" url="features/org.wso2.carbon.databridge.datapublisher_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.registry.resource.properties" url="features/org.wso2.carbon.registry.resource.properties_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.server" url="features/org.wso2.carbon.cassandra.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="caramel" url="features/caramel_0.0.0.0_9_0_ALPHA1_wso2v1/" version="0.0.0.0_9_0_ALPHA1_wso2v1">
+		</feature>
+		<feature id="org.wso2.carbon.application.deployer.bam" url="features/org.wso2.carbon.application.deployer.bam_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.databridge.datasink.cassandra.server" url="features/org.wso2.carbon.databridge.datasink.cassandra.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adaptor.http.server" url="features/org.wso2.carbon.event.output.adaptor.http.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.input.adaptor.manager.server" url="features/org.wso2.carbon.event.input.adaptor.manager.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.ntask" url="features/org.wso2.carbon.ntask_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.cassandra.search.server" url="features/org.wso2.carbon.cassandra.search.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.application.mgt.server" url="features/org.wso2.carbon.application.mgt.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.dashboard.dashboardpopulator.server" url="features/org.wso2.carbon.dashboard.dashboardpopulator.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.reporting" url="features/org.wso2.carbon.reporting_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.output.adaptor.wso2event.server" url="features/org.wso2.carbon.event.output.adaptor.wso2event.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.dashboard.mgt.gadgetrepo" url="features/org.wso2.carbon.dashboard.mgt.gadgetrepo_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.core.server" url="features/org.wso2.carbon.core.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.application.mgt" url="features/org.wso2.carbon.application.mgt_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.builder.ui" url="features/org.wso2.carbon.event.builder.ui_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.ui" url="features/org.wso2.carbon.event.ui_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.bam.toolbox.deployer.server" url="features/org.wso2.carbon.bam.toolbox.deployer.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.jaggeryjs.server" url="features/org.jaggeryjs.server_0.0.0.0_9_0_ALPHA4_wso2v1/" version="0.0.0.0_9_0_ALPHA4_wso2v1">
+		</feature>
+		<feature id="org.wso2.carbon.dashboard.mgt.users.server" url="features/org.wso2.carbon.dashboard.mgt.users.server_4.2.0/" version="4.2.0">
+		</feature>
+		<feature id="org.wso2.carbon.security.mgt" url="features/org.wso2.carbon.security.mgt_4.2.1/" version="4.2.1">
+		</feature>
+		<feature id="org.wso2.carbon.event.tracer.server" url="features/org.wso2.carbon.event.tracer.server_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.wso2.carbon.event.input.adaptor.wsevent.server" url="features/org.wso2.carbon.event.input.adaptor.wsevent.server_1.0.0/" version="1.0.0">
+		</feature>
+	</site>
+</config>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.reporting.server" label="WSO2 Carbon - Reporting Core Feature" provider-name="%providerName" version="4.2.1">
+  <description>This feature contains the core bundles required for reporting back end</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="jasper-jdt" unpack="false" version="6.0.18.wso2v1"/>
+  <plugin id="jxl" unpack="false" version="2.6.8.wso2v1"/>
+  <plugin id="itext" unpack="false" version="2.1.7.wso2v1"/>
+  <plugin id="org.wso2.carbon.reporting.util" unpack="false" version="4.2.0"/>
+  <plugin id="jfreechart" unpack="false" version="1.0.13.wso2v1"/>
+  <plugin id="jcommon" unpack="false" version="1.0.15.wso2v1"/>
+  <plugin id="commons-digester" unpack="false" version="1.8.1.wso2v1"/>
+  <plugin id="jasperreports" unpack="false" version="4.5.0.wso2v1"/>
+  <plugin id="org.wso2.carbon.reporting.api" unpack="false" version="4.2.0"/>
+  <plugin id="commons-beanutils" unpack="false" version="1.8.0.wso2v1"/>
+  <plugin id="org.wso2.carbon.reporting.core" unpack="false" version="4.2.1"/>
+  <require>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.2.0"/>
+  </require>
+</feature>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.registry.social" label="WSO2 Carbon - Registry Social Feature" provider-name="%providerName" version="4.2.0">
+  <description>Enables OpenSocial Support</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.registry.social.api" unpack="false" version="4.2.0"/>
+  <plugin id="guava" unpack="false" version="12.0.0.wso2v1"/>
+  <plugin id="org.wso2.carbon.registry.social.impl" unpack="false" version="4.2.0"/>
+</feature>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.dashboard.mgt.users.server" label="WSO2 Carbon - Dashboard user mgt Server Side Feature" provider-name="%providerName" version="4.2.0">
+  <description>This feature contains the core bundles required for dashboard user mgt Back-end</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.dashboard.common" unpack="false" version="4.2.0"/>
+  <plugin id="org.wso2.carbon.dashboard.mgt.users" unpack="false" version="4.2.0"/>
+  <require>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.2.0"/>
+  </require>
+</feature>

@@ -1,0 +1,1 @@
+WSO2 Business Activity Monitor v2.4.0

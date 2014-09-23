@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <Module>
+    <ModulePrefs title="Summary of commits"
+                 author="WSO2 Dev governance"
+                 height="230"
+                 scrolling="true"
+                 tags="charts,bar,visualization,data"
+                 description=" Displays monthly summary of commits">
+     </ModulePrefs>
+    <UserPref name="dataSource"
+              display_name="Data Source"
+              default_value="api/gitCommitSummary.jag">
+    </UserPref>
+    <UserPref name="updateGraph"
+              display_name="Update Interval (s)"
+              default_value="No">
+    </UserPref>
+    <Content type="html">
+    <![CDATA[
+
+	 <html>
+	 <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Summary of commits</title>
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="js/highcharts.js"></script>
+		<script src="js/exporting.js"></script>
+		<script type="text/javascript">		
+			function fetchData() {
+				var url = "../../Build-Status-Dashboard/apis/gitCommitSummary.jag";
+
+				$.ajax({
+				    url: url,
+				    type: "GET",
+				    dataType: "json",
+				    success: onDataReceived
+				});
+			}
+			function onDataReceived(data) {
+				$('#container').highcharts(data);
+			     
+			}
+			$(function () {
+				fetchData();
+			});
+	    	</script>
+	
+	</head>
+
+	<body>
+		<div style="margin:10px;">	
+			<div id="container"></div>
+		<div>
+	</body>
+	</html>
+
+    ]]>
+</Content>
+</Module>
+
+

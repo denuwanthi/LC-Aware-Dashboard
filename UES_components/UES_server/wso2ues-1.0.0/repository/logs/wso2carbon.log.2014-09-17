@@ -1,0 +1,1150 @@
+TID: [0] [] [2014-09-17 17:58:26,094]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:58:26,095]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-24-generic, amd64 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:58:26,095]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /usr/lib/jvm/java-6-oracle/jre {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:58:26,095]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.6.0_45 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:58:26,095]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 20.45-b01,Sun Microsystems Inc. {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:58:26,095]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:58:26,095]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/tmp {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:58:26,096]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : denuwanthi, en-US, Asia/Colombo {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:58:26,995]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 51ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [0] [] [2014-09-17 17:58:27,097]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [0] [] [2014-09-17 17:58:30,522]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2014-09-17 17:58:30,522]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2014-09-17 17:58:30,690]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 17:58:30,690]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 17:58:30,815]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 17:58:30,937]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 17:58:30,937]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 17:58:31,002]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 17:58:31,016]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 17:58:31,016]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 17:58:33,869]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. {org.apache.shiro.config.IniSecurityManagerFactory}
+TID: [0] [] [2014-09-17 17:58:33,869]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. {org.apache.shiro.config.IniSecurityManagerFactory}
+TID: [0] [] [2014-09-17 17:58:33,870]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. {org.apache.shiro.realm.AuthorizingRealm}
+TID: [0] [] [2014-09-17 17:58:33,870]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. {org.apache.shiro.realm.AuthorizingRealm}
+TID: [0] [] [2014-09-17 17:58:33,877]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/webapps/ROOT] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [0] [] [2014-09-17 17:58:34,847]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ceo-dash].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/ceo-dash] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 17:58:34,863]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/markmail].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/markmail] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 17:58:34,881]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/climate].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/climate] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 17:58:35,468]  INFO {portal.deployer} -  Default gadgets deployed {portal.deployer}
+TID: [0] [] [2014-09-17 17:58:35,659]  INFO {portal.site.deployer} -  Default sites deployed {portal.site.deployer}
+TID: [0] [] [2014-09-17 17:58:35,660]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/portal] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 17:58:36,259]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/store] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 17:58:36,495]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sso].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/sso] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 17:58:36,521]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 17:58:36,589]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 17:58:36,698]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v9 - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/client/modules/addressing-1.6.1-wso2v9.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2014-09-17 17:58:36,698]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v9 - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/client/modules/addressing-1.6.1-wso2v9.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2014-09-17 17:58:36,700]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 17:58:36,700]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 17:58:37,218]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/ {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 17:58:37,232]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [0] [] [2014-09-17 17:58:37,370]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9444 {org.wso2.carbon.core.transports.http.HttpsTransportListener}
+TID: [0] [] [2014-09-17 17:58:37,370]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9764 {org.wso2.carbon.core.transports.http.HttpTransportListener}
+TID: [0] [] [2014-09-17 17:58:37,374] ERROR {org.wso2.carbon.tomcat.internal.CarbonTomcat} -  LifeCycleException while starting tomcat connector {org.wso2.carbon.tomcat.internal.CarbonTomcat}
+org.apache.catalina.LifecycleException: Failed to start component [Connector[org.apache.coyote.http11.Http11NioProtocol-9764]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.wso2.carbon.tomcat.internal.CarbonTomcat.startConnectors(CarbonTomcat.java:369)
+	at org.wso2.carbon.tomcat.ext.transport.ServletTransportManager.startTransports(ServletTransportManager.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.wso2.carbon.core.internal.StartupFinalizerServiceComponent.completeInitialization(StartupFinalizerServiceComponent.java:184)
+	at org.wso2.carbon.core.internal.StartupFinalizerServiceComponent.serviceChanged(StartupFinalizerServiceComponent.java:279)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:451)
+	at org.wso2.carbon.server.admin.internal.ServerAdminServiceComponent.activate(ServerAdminServiceComponent.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:347)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:451)
+	at org.wso2.carbon.core.init.CarbonServerManager.initializeCarbon(CarbonServerManager.java:513)
+	at org.wso2.carbon.core.init.CarbonServerManager.start(CarbonServerManager.java:219)
+	at org.wso2.carbon.core.internal.CarbonCoreServiceComponent.activate(CarbonCoreServiceComponent.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:347)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.equinox.http.servlet.internal.Activator.registerHttpService(Activator.java:81)
+	at org.eclipse.equinox.http.servlet.internal.Activator.addProxyServlet(Activator.java:60)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.init(ProxyServlet.java:40)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.init(DelegationServlet.java:38)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1267)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1186)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1081)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5027)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5314)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Catalina";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1017)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 80 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:124)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:59)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:470)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:617)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:444)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1010)
+	... 81 more
+TID: [0] [] [2014-09-17 17:58:37,376] ERROR {org.wso2.carbon.tomcat.internal.CarbonTomcat} -  LifeCycleException while starting tomcat connector {org.wso2.carbon.tomcat.internal.CarbonTomcat}
+org.apache.catalina.LifecycleException: Failed to start component [Connector[org.apache.coyote.http11.Http11NioProtocol-9444]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.wso2.carbon.tomcat.internal.CarbonTomcat.startConnectors(CarbonTomcat.java:369)
+	at org.wso2.carbon.tomcat.ext.transport.ServletTransportManager.startTransports(ServletTransportManager.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.wso2.carbon.core.internal.StartupFinalizerServiceComponent.completeInitialization(StartupFinalizerServiceComponent.java:184)
+	at org.wso2.carbon.core.internal.StartupFinalizerServiceComponent.serviceChanged(StartupFinalizerServiceComponent.java:279)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:451)
+	at org.wso2.carbon.server.admin.internal.ServerAdminServiceComponent.activate(ServerAdminServiceComponent.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:347)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:451)
+	at org.wso2.carbon.core.init.CarbonServerManager.initializeCarbon(CarbonServerManager.java:513)
+	at org.wso2.carbon.core.init.CarbonServerManager.start(CarbonServerManager.java:219)
+	at org.wso2.carbon.core.internal.CarbonCoreServiceComponent.activate(CarbonCoreServiceComponent.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:347)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.equinox.http.servlet.internal.Activator.registerHttpService(Activator.java:81)
+	at org.eclipse.equinox.http.servlet.internal.Activator.addProxyServlet(Activator.java:60)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.init(ProxyServlet.java:40)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.init(DelegationServlet.java:38)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1267)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1186)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1081)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5027)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5314)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Catalina";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1017)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 80 more
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:124)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:59)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:470)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:617)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:444)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1010)
+	... 81 more
+TID: [0] [] [2014-09-17 17:58:37,386]  INFO {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent} -  Successfully Initialized Eventing on Registry {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent}
+TID: [0] [] [2014-09-17 17:58:37,404] ERROR {org.wso2.carbon.core.init.JMXServerManager} -  Could not create the RMI local registry {org.wso2.carbon.core.init.JMXServerManager}
+java.rmi.server.ExportException: Port already in use: 10000; nested exception is: 
+	java.net.BindException: Address already in use
+	at sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:310)
+	at sun.rmi.transport.tcp.TCPTransport.exportObject(TCPTransport.java:218)
+	at sun.rmi.transport.tcp.TCPEndpoint.exportObject(TCPEndpoint.java:393)
+	at sun.rmi.transport.LiveRef.exportObject(LiveRef.java:129)
+	at sun.rmi.server.UnicastServerRef.exportObject(UnicastServerRef.java:188)
+	at sun.rmi.registry.RegistryImpl.setup(RegistryImpl.java:100)
+	at sun.rmi.registry.RegistryImpl.<init>(RegistryImpl.java:86)
+	at java.rmi.registry.LocateRegistry.createRegistry(LocateRegistry.java:186)
+	at org.wso2.carbon.core.init.JMXServerManager.startJMXService(JMXServerManager.java:89)
+	at org.wso2.carbon.core.internal.StartupFinalizerServiceComponent.completeInitialization(StartupFinalizerServiceComponent.java:194)
+	at org.wso2.carbon.core.internal.StartupFinalizerServiceComponent.serviceChanged(StartupFinalizerServiceComponent.java:279)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:451)
+	at org.wso2.carbon.server.admin.internal.ServerAdminServiceComponent.activate(ServerAdminServiceComponent.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:347)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:451)
+	at org.wso2.carbon.core.init.CarbonServerManager.initializeCarbon(CarbonServerManager.java:513)
+	at org.wso2.carbon.core.init.CarbonServerManager.start(CarbonServerManager.java:219)
+	at org.wso2.carbon.core.internal.CarbonCoreServiceComponent.activate(CarbonCoreServiceComponent.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:347)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.equinox.http.servlet.internal.Activator.registerHttpService(Activator.java:81)
+	at org.eclipse.equinox.http.servlet.internal.Activator.addProxyServlet(Activator.java:60)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.init(ProxyServlet.java:40)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.init(DelegationServlet.java:38)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1267)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1186)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1081)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5027)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5314)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:383)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:106)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createServerSocket(RMIDirectSocketFactory.java:27)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createServerSocket(RMIMasterSocketFactory.java:333)
+	at sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(TCPEndpoint.java:649)
+	at sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:299)
+	... 82 more
+TID: [0] [] [2014-09-17 17:58:37,408] ERROR {org.wso2.carbon.core.init.JMXServerManager} -  Could not initialize RMI server {org.wso2.carbon.core.init.JMXServerManager}
+java.rmi.server.ExportException: Port already in use: 11112; nested exception is: 
+	java.net.BindException: Address already in use
+	at sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:310)
+	at sun.rmi.transport.tcp.TCPTransport.exportObject(TCPTransport.java:218)
+	at sun.rmi.transport.tcp.TCPEndpoint.exportObject(TCPEndpoint.java:393)
+	at sun.rmi.transport.LiveRef.exportObject(LiveRef.java:129)
+	at sun.rmi.server.UnicastServerRef.exportObject(UnicastServerRef.java:188)
+	at java.rmi.server.UnicastRemoteObject.exportObject(UnicastRemoteObject.java:293)
+	at java.rmi.server.UnicastRemoteObject.exportObject(UnicastRemoteObject.java:256)
+	at javax.management.remote.rmi.RMIJRMPServerImpl.export(RMIJRMPServerImpl.java:82)
+	at javax.management.remote.rmi.RMIJRMPServerImpl.export(RMIJRMPServerImpl.java:75)
+	at javax.management.remote.rmi.RMIConnectorServer.start(RMIConnectorServer.java:388)
+	at org.wso2.carbon.core.init.JMXServerManager.startJMXService(JMXServerManager.java:121)
+	at org.wso2.carbon.core.internal.StartupFinalizerServiceComponent.completeInitialization(StartupFinalizerServiceComponent.java:194)
+	at org.wso2.carbon.core.internal.StartupFinalizerServiceComponent.serviceChanged(StartupFinalizerServiceComponent.java:279)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:451)
+	at org.wso2.carbon.server.admin.internal.ServerAdminServiceComponent.activate(ServerAdminServiceComponent.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:347)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:451)
+	at org.wso2.carbon.core.init.CarbonServerManager.initializeCarbon(CarbonServerManager.java:513)
+	at org.wso2.carbon.core.init.CarbonServerManager.start(CarbonServerManager.java:219)
+	at org.wso2.carbon.core.internal.CarbonCoreServiceComponent.activate(CarbonCoreServiceComponent.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:347)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.equinox.http.servlet.internal.Activator.registerHttpService(Activator.java:81)
+	at org.eclipse.equinox.http.servlet.internal.Activator.addProxyServlet(Activator.java:60)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.init(ProxyServlet.java:40)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.init(DelegationServlet.java:38)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1267)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1186)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1081)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5027)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5314)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:383)
+	at java.net.ServerSocket.bind(ServerSocket.java:328)
+	at java.net.ServerSocket.<init>(ServerSocket.java:194)
+	at java.net.ServerSocket.<init>(ServerSocket.java:106)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createServerSocket(RMIDirectSocketFactory.java:27)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createServerSocket(RMIMasterSocketFactory.java:333)
+	at sun.rmi.transport.tcp.TCPEndpoint.newServerSocket(TCPEndpoint.java:649)
+	at sun.rmi.transport.tcp.TCPTransport.listen(TCPTransport.java:299)
+	... 84 more
+TID: [0] [] [2014-09-17 17:58:37,410]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 User Engagement Server-1.0.0 {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2014-09-17 17:58:37,410]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 13 sec {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2014-09-17 17:58:37,537]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.100.5.90:9444/admin/carbon/ {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [0] [] [2014-09-17 17:58:40,496]  INFO {portal.site.deployer} -  UES Portal URL : http://localhost:9764/portal {portal.site.deployer}
+TID: [0] [] [2014-09-17 17:58:42,894]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 17:58:42,897]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 User Engagement Server... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 17:58:42,897]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 17:58:42,898] ERROR {org.wso2.carbon.tomcat.internal.CarbonTomcat} -  LifeCycleException while stopping tomcat connector {org.wso2.carbon.tomcat.internal.CarbonTomcat}
+org.apache.catalina.LifecycleException: Failed to stop component [Connector[org.apache.coyote.http11.Http11NioProtocol-9444]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.wso2.carbon.tomcat.internal.CarbonTomcat.stopConnector(CarbonTomcat.java:437)
+	at org.wso2.carbon.tomcat.ext.transport.ServletTransportManager.stopTransport(ServletTransportManager.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.wso2.carbon.utils.transport.AbstractTransportListener.stop(AbstractTransportListener.java:145)
+	at org.wso2.carbon.core.ServerManagement.startMaintenance(ServerManagement.java:81)
+	at org.wso2.carbon.core.ServerManagement.startMaintenanceForShutDown(ServerManagement.java:95)
+	at org.wso2.carbon.core.init.CarbonServerManager.shutdownGracefully(CarbonServerManager.java:874)
+	at org.wso2.carbon.core.init.CarbonServerManager$4.run(CarbonServerManager.java:890)
+Caused by: org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.connector.MapperListener@bff36c] in state [INITIALIZED]
+	at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:409)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:219)
+	at org.apache.catalina.connector.Connector.stopInternal(Connector.java:1044)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 11 more
+TID: [0] [] [2014-09-17 17:58:42,899] ERROR {org.wso2.carbon.tomcat.internal.CarbonTomcat} -  LifeCycleException while stopping tomcat connector {org.wso2.carbon.tomcat.internal.CarbonTomcat}
+org.apache.catalina.LifecycleException: Failed to stop component [Connector[org.apache.coyote.http11.Http11NioProtocol-9764]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.wso2.carbon.tomcat.internal.CarbonTomcat.stopConnector(CarbonTomcat.java:437)
+	at org.wso2.carbon.tomcat.ext.transport.ServletTransportManager.stopTransport(ServletTransportManager.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.wso2.carbon.utils.transport.AbstractTransportListener.stop(AbstractTransportListener.java:145)
+	at org.wso2.carbon.core.ServerManagement.startMaintenance(ServerManagement.java:81)
+	at org.wso2.carbon.core.ServerManagement.startMaintenanceForShutDown(ServerManagement.java:95)
+	at org.wso2.carbon.core.init.CarbonServerManager.shutdownGracefully(CarbonServerManager.java:874)
+	at org.wso2.carbon.core.init.CarbonServerManager$4.run(CarbonServerManager.java:890)
+Caused by: org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.connector.MapperListener@6e3be05c] in state [INITIALIZED]
+	at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:409)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:219)
+	at org.apache.catalina.connector.Connector.stopInternal(Connector.java:1044)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 11 more
+TID: [0] [] [2014-09-17 17:58:42,899]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 17:58:42,899]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 17:58:42,900]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 17:58:42,900]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 17:58:43,034]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 17:58:43,040]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 17:58:43,045]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ceo-dash] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 17:58:43,051]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/markmail] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 17:58:43,056]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sso] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 17:58:43,061]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/climate] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 17:58:43,067]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 17:58:43,067]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 17:58:43,067]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 17:58:43,075]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Writing logs  {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [0] [] [2014-09-17 17:58:43,075]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 17:58:43,075]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 User Engagement Server... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 17:58:43,076] ERROR {org.wso2.carbon.tomcat.internal.CarbonTomcat} -  LifeCycleException while stopping tomcat connector {org.wso2.carbon.tomcat.internal.CarbonTomcat}
+org.apache.catalina.LifecycleException: Failed to stop component [Connector[org.apache.coyote.http11.Http11NioProtocol-9444]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.wso2.carbon.tomcat.internal.CarbonTomcat.stopConnector(CarbonTomcat.java:437)
+	at org.wso2.carbon.tomcat.ext.transport.ServletTransportManager.stopTransport(ServletTransportManager.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.wso2.carbon.utils.transport.AbstractTransportListener.stop(AbstractTransportListener.java:145)
+	at org.apache.axis2.engine.ListenerManager.stop(ListenerManager.java:203)
+	at org.apache.axis2.engine.ListenerManager.destroy(ListenerManager.java:282)
+	at org.wso2.carbon.core.init.CarbonServerManager.stopListenerManager(CarbonServerManager.java:669)
+	at org.wso2.carbon.core.init.CarbonServerManager.shutdown(CarbonServerManager.java:842)
+	at org.wso2.carbon.core.init.CarbonServerManager.shutdownGracefully(CarbonServerManager.java:879)
+	at org.wso2.carbon.core.init.CarbonServerManager$4.run(CarbonServerManager.java:890)
+Caused by: org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.connector.MapperListener@bff36c] in state [INITIALIZED]
+	at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:409)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:219)
+	at org.apache.catalina.connector.Connector.stopInternal(Connector.java:1044)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 13 more
+TID: [0] [] [2014-09-17 17:58:43,077] ERROR {org.wso2.carbon.tomcat.internal.CarbonTomcat} -  LifeCycleException while stopping tomcat connector {org.wso2.carbon.tomcat.internal.CarbonTomcat}
+org.apache.catalina.LifecycleException: Failed to stop component [Connector[org.apache.coyote.http11.Http11NioProtocol-9764]]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:236)
+	at org.wso2.carbon.tomcat.internal.CarbonTomcat.stopConnector(CarbonTomcat.java:437)
+	at org.wso2.carbon.tomcat.ext.transport.ServletTransportManager.stopTransport(ServletTransportManager.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.wso2.carbon.utils.transport.AbstractTransportListener.stop(AbstractTransportListener.java:145)
+	at org.apache.axis2.engine.ListenerManager.stop(ListenerManager.java:203)
+	at org.apache.axis2.engine.ListenerManager.destroy(ListenerManager.java:282)
+	at org.wso2.carbon.core.init.CarbonServerManager.stopListenerManager(CarbonServerManager.java:669)
+	at org.wso2.carbon.core.init.CarbonServerManager.shutdown(CarbonServerManager.java:842)
+	at org.wso2.carbon.core.init.CarbonServerManager.shutdownGracefully(CarbonServerManager.java:879)
+	at org.wso2.carbon.core.init.CarbonServerManager$4.run(CarbonServerManager.java:890)
+Caused by: org.apache.catalina.LifecycleException: An invalid Lifecycle transition was attempted ([before_stop]) for component [org.apache.catalina.connector.MapperListener@6e3be05c] in state [INITIALIZED]
+	at org.apache.catalina.util.LifecycleBase.invalidTransition(LifecycleBase.java:409)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:219)
+	at org.apache.catalina.connector.Connector.stopInternal(Connector.java:1044)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:232)
+	... 13 more
+TID: [0] [] [2014-09-17 17:58:43,077]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 17:58:43,077]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 17:58:43,078]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 17:58:43,120]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 17:58:43,127]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : /admin {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [0] [] [2014-09-17 17:58:43,431]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 17:58:43,431]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 17:59:13,992]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:59:13,994]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-24-generic, amd64 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:59:13,994]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /usr/lib/jvm/java-6-oracle/jre {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:59:13,994]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.6.0_45 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:59:13,994]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 20.45-b01,Sun Microsystems Inc. {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:59:13,994]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:59:13,994]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/tmp {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:59:13,994]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : denuwanthi, en-US, Asia/Colombo {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 17:59:14,733]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 32ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [0] [] [2014-09-17 17:59:14,811]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [0] [] [2014-09-17 17:59:18,026]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2014-09-17 17:59:18,026]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2014-09-17 17:59:18,162]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 17:59:18,162]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 17:59:18,244]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 17:59:18,379]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 17:59:18,379]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 17:59:18,436]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 17:59:18,475]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 17:59:18,475]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 17:59:21,592]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. {org.apache.shiro.config.IniSecurityManagerFactory}
+TID: [0] [] [2014-09-17 17:59:21,592]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. {org.apache.shiro.config.IniSecurityManagerFactory}
+TID: [0] [] [2014-09-17 17:59:21,593]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. {org.apache.shiro.realm.AuthorizingRealm}
+TID: [0] [] [2014-09-17 17:59:21,593]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. {org.apache.shiro.realm.AuthorizingRealm}
+TID: [0] [] [2014-09-17 17:59:21,601]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/webapps/ROOT] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [0] [] [2014-09-17 17:59:22,593]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ceo-dash].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/ceo-dash] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 17:59:22,611]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/markmail].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/markmail] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 17:59:22,629]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/climate].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/climate] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 17:59:23,293]  INFO {portal.deployer} -  Default gadgets deployed {portal.deployer}
+TID: [0] [] [2014-09-17 17:59:23,494]  INFO {portal.site.deployer} -  Default sites deployed {portal.site.deployer}
+TID: [0] [] [2014-09-17 17:59:23,494]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/portal] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 17:59:23,962]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/store] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 17:59:24,046]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sso].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/sso] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 17:59:24,071]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 17:59:24,135]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 17:59:24,234]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v9 - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/client/modules/addressing-1.6.1-wso2v9.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2014-09-17 17:59:24,234]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v9 - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/client/modules/addressing-1.6.1-wso2v9.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2014-09-17 17:59:24,236]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 17:59:24,236]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 17:59:24,766]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/ {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 17:59:24,780]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [0] [] [2014-09-17 17:59:24,914]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9445 {org.wso2.carbon.core.transports.http.HttpsTransportListener}
+TID: [0] [] [2014-09-17 17:59:24,914]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9765 {org.wso2.carbon.core.transports.http.HttpTransportListener}
+TID: [0] [] [2014-09-17 17:59:25,017]  INFO {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent} -  Successfully Initialized Eventing on Registry {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent}
+TID: [0] [] [2014-09-17 17:59:25,322]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11113/jndi/rmi://localhost:10001/jmxrmi {org.wso2.carbon.core.init.JMXServerManager}
+TID: [0] [] [2014-09-17 17:59:25,322]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 User Engagement Server-1.0.0 {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2014-09-17 17:59:25,322]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 13 sec {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2014-09-17 17:59:25,440]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.100.5.90:9445/admin/carbon/ {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [0] [] [2014-09-17 17:59:28,314]  INFO {portal.site.deployer} -  UES Portal URL : http://localhost:9765/portal {portal.site.deployer}
+TID: [0] [] [2014-09-17 18:01:52,047]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:01:52,047]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 User Engagement Server... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:01:52,049]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:01:54,279]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:01:54,279]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:01:54,284]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:01:54,284]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:01:54,308]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:01:54,313]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:01:54,316]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ceo-dash] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:01:54,321]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/markmail] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:01:54,325]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sso] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:01:54,329]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/climate] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:01:54,333]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:01:54,333]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:01:54,333]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:01:54,414]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:01:54,414]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 User Engagement Server... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:01:54,415]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:01:54,415]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:01:54,416]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:01:54,466]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:01:54,471]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : /admin {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [0] [] [2014-09-17 18:01:54,649]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:01:54,649]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:02:04,881]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:02:04,882]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-24-generic, amd64 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:02:04,882]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /usr/lib/jvm/java-6-oracle/jre {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:02:04,882]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.6.0_45 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:02:04,882]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 20.45-b01,Sun Microsystems Inc. {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:02:04,883]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:02:04,883]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/tmp {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:02:04,883]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : denuwanthi, en-US, Asia/Colombo {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:02:05,714]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 50ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [0] [] [2014-09-17 18:02:05,802]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [0] [] [2014-09-17 18:02:09,102]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2014-09-17 18:02:09,102]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2014-09-17 18:02:09,255]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:02:09,255]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:02:09,341]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:02:09,430]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:02:09,430]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:02:09,487]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:02:09,502]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:02:09,502]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:02:13,098]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. {org.apache.shiro.config.IniSecurityManagerFactory}
+TID: [0] [] [2014-09-17 18:02:13,098]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. {org.apache.shiro.config.IniSecurityManagerFactory}
+TID: [0] [] [2014-09-17 18:02:13,099]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. {org.apache.shiro.realm.AuthorizingRealm}
+TID: [0] [] [2014-09-17 18:02:13,099]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. {org.apache.shiro.realm.AuthorizingRealm}
+TID: [0] [] [2014-09-17 18:02:13,109]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/webapps/ROOT] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [0] [] [2014-09-17 18:02:14,441]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ceo-dash].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/ceo-dash] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:02:14,465]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/markmail].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/markmail] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:02:14,490]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/climate].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/climate] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:02:15,225]  INFO {portal.deployer} -  Default gadgets deployed {portal.deployer}
+TID: [0] [] [2014-09-17 18:02:15,374]  INFO {portal.site.deployer} -  Default sites deployed {portal.site.deployer}
+TID: [0] [] [2014-09-17 18:02:15,375]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/portal] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:02:15,522]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/store] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:02:15,575]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sso].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/sso] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:02:15,599]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:02:15,658]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:02:15,745]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v9 - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/client/modules/addressing-1.6.1-wso2v9.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2014-09-17 18:02:15,745]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v9 - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/client/modules/addressing-1.6.1-wso2v9.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2014-09-17 18:02:15,747]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:02:15,747]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:02:16,247]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/ {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:02:16,261]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [0] [] [2014-09-17 18:02:16,408]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9445 {org.wso2.carbon.core.transports.http.HttpsTransportListener}
+TID: [0] [] [2014-09-17 18:02:16,408]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9765 {org.wso2.carbon.core.transports.http.HttpTransportListener}
+TID: [0] [] [2014-09-17 18:02:16,514]  INFO {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent} -  Successfully Initialized Eventing on Registry {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent}
+TID: [0] [] [2014-09-17 18:02:16,808]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11113/jndi/rmi://localhost:10001/jmxrmi {org.wso2.carbon.core.init.JMXServerManager}
+TID: [0] [] [2014-09-17 18:02:16,808]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 User Engagement Server-1.0.0 {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2014-09-17 18:02:16,808]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 13 sec {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2014-09-17 18:02:16,936]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.100.5.90:9445/admin/carbon/ {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [0] [] [2014-09-17 18:02:20,238]  INFO {portal.site.deployer} -  UES Portal URL : http://localhost:9765/portal {portal.site.deployer}
+TID: [0] [] [2014-09-17 18:19:25,274]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:19:25,274]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 User Engagement Server... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:19:25,277]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:19:27,528]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:19:27,529]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:19:27,534]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:19:27,534]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:19:27,568]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:19:27,599]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:19:27,604]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ceo-dash] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:19:27,609]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/markmail] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:19:27,623]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sso] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:19:27,628]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/climate] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:19:27,652]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:19:27,652]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:19:27,652]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:19:27,660]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:19:27,661]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 User Engagement Server... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:19:27,661]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:19:27,661]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:19:27,663]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:19:27,695]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:19:27,701]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : /admin {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [0] [] [2014-09-17 18:19:27,903]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:19:27,903]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:19:39,859]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:19:39,860]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-24-generic, amd64 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:19:39,860]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /usr/lib/jvm/java-6-oracle/jre {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:19:39,860]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.6.0_45 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:19:39,860]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 20.45-b01,Sun Microsystems Inc. {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:19:39,860]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:19:39,860]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/tmp {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:19:39,860]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : denuwanthi, en-US, Asia/Colombo {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:19:40,658]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 44ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [0] [] [2014-09-17 18:19:40,736]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [0] [] [2014-09-17 18:19:44,096]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2014-09-17 18:19:44,096]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2014-09-17 18:19:44,294]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:19:44,294]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:19:44,419]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:19:44,534]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:19:44,534]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:19:44,589]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:19:44,606]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:19:44,606]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:19:47,823]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. {org.apache.shiro.config.IniSecurityManagerFactory}
+TID: [0] [] [2014-09-17 18:19:47,823]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. {org.apache.shiro.config.IniSecurityManagerFactory}
+TID: [0] [] [2014-09-17 18:19:47,823]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. {org.apache.shiro.realm.AuthorizingRealm}
+TID: [0] [] [2014-09-17 18:19:47,823]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. {org.apache.shiro.realm.AuthorizingRealm}
+TID: [0] [] [2014-09-17 18:19:47,831]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/webapps/ROOT] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [0] [] [2014-09-17 18:19:48,666]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ceo-dash].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/ceo-dash] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:19:48,681]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/markmail].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/markmail] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:19:48,696]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/climate].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/climate] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:19:49,311]  INFO {portal.deployer} -  Default gadgets deployed {portal.deployer}
+TID: [0] [] [2014-09-17 18:19:49,453]  INFO {portal.site.deployer} -  Default sites deployed {portal.site.deployer}
+TID: [0] [] [2014-09-17 18:19:49,454]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/portal] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:19:49,559]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/store] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:19:49,609]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sso].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/sso] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:19:49,635]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:19:49,690]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:19:49,773]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v9 - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/client/modules/addressing-1.6.1-wso2v9.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2014-09-17 18:19:49,773]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v9 - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/client/modules/addressing-1.6.1-wso2v9.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2014-09-17 18:19:49,774]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:19:49,774]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:19:50,275]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/ {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:19:50,289]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [0] [] [2014-09-17 18:19:50,424]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9445 {org.wso2.carbon.core.transports.http.HttpsTransportListener}
+TID: [0] [] [2014-09-17 18:19:50,424]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9765 {org.wso2.carbon.core.transports.http.HttpTransportListener}
+TID: [0] [] [2014-09-17 18:19:50,532]  INFO {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent} -  Successfully Initialized Eventing on Registry {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent}
+TID: [0] [] [2014-09-17 18:19:50,817]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11113/jndi/rmi://localhost:10001/jmxrmi {org.wso2.carbon.core.init.JMXServerManager}
+TID: [0] [] [2014-09-17 18:19:50,818]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 User Engagement Server-1.0.0 {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2014-09-17 18:19:50,818]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 12 sec {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2014-09-17 18:19:50,945]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.100.5.90:9445/admin/carbon/ {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [0] [] [2014-09-17 18:19:54,327]  INFO {portal.site.deployer} -  UES Portal URL : http://localhost:9765/portal {portal.site.deployer}
+TID: [0] [] [2014-09-17 18:20:28,986]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:20:28,987]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 User Engagement Server... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:20:28,993]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:20:31,191]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:20:31,191]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:20:31,194]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:20:31,194]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:20:31,226]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:20:31,233]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:20:31,243]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ceo-dash] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:20:31,249]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/markmail] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:20:31,253]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sso] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:20:31,259]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/climate] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:20:31,263]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:20:31,264]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:20:31,264]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:20:31,273]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:20:31,273]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 User Engagement Server... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:20:31,273]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:20:31,273]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:20:31,274]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:20:31,330]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:20:31,341]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : /admin {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [0] [] [2014-09-17 18:20:31,609]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:20:31,609]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:22:51,657]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:22:51,658]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-24-generic, amd64 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:22:51,658]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /usr/lib/jvm/java-6-oracle/jre {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:22:51,658]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.6.0_45 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:22:51,658]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 20.45-b01,Sun Microsystems Inc. {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:22:51,658]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:22:51,658]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/tmp {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:22:51,658]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : denuwanthi, en-US, Asia/Colombo {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:22:52,375]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 32ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [0] [] [2014-09-17 18:22:52,454]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [0] [] [2014-09-17 18:22:56,151]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2014-09-17 18:22:56,151]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2014-09-17 18:22:56,300]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:22:56,300]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:22:56,390]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:22:56,485]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:22:56,485]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:22:56,541]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:22:56,556]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:22:56,556]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:23:00,169]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. {org.apache.shiro.config.IniSecurityManagerFactory}
+TID: [0] [] [2014-09-17 18:23:00,169]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. {org.apache.shiro.config.IniSecurityManagerFactory}
+TID: [0] [] [2014-09-17 18:23:00,169]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. {org.apache.shiro.realm.AuthorizingRealm}
+TID: [0] [] [2014-09-17 18:23:00,169]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. {org.apache.shiro.realm.AuthorizingRealm}
+TID: [0] [] [2014-09-17 18:23:00,177]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/webapps/ROOT] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [0] [] [2014-09-17 18:23:01,044]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ceo-dash].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/ceo-dash] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:23:01,059]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/markmail].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/markmail] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:23:01,074]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/climate].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/climate] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:23:01,596]  INFO {portal.deployer} -  Default gadgets deployed {portal.deployer}
+TID: [0] [] [2014-09-17 18:23:01,742]  INFO {portal.site.deployer} -  Default sites deployed {portal.site.deployer}
+TID: [0] [] [2014-09-17 18:23:01,742]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/portal] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:23:01,882]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/store] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:23:01,932]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sso].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/sso] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:23:01,957]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:23:02,024]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:23:02,131]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v9 - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/client/modules/addressing-1.6.1-wso2v9.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2014-09-17 18:23:02,131]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v9 - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/client/modules/addressing-1.6.1-wso2v9.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2014-09-17 18:23:02,133]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:23:02,133]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:23:02,612]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/ {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:23:02,626]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [0] [] [2014-09-17 18:23:02,749]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9445 {org.wso2.carbon.core.transports.http.HttpsTransportListener}
+TID: [0] [] [2014-09-17 18:23:02,749]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9765 {org.wso2.carbon.core.transports.http.HttpTransportListener}
+TID: [0] [] [2014-09-17 18:23:02,853]  INFO {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent} -  Successfully Initialized Eventing on Registry {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent}
+TID: [0] [] [2014-09-17 18:23:03,134]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11113/jndi/rmi://localhost:10001/jmxrmi {org.wso2.carbon.core.init.JMXServerManager}
+TID: [0] [] [2014-09-17 18:23:03,135]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 User Engagement Server-1.0.0 {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2014-09-17 18:23:03,135]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 13 sec {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2014-09-17 18:23:03,257]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.100.5.90:9445/admin/carbon/ {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [0] [] [2014-09-17 18:23:06,609]  INFO {portal.site.deployer} -  UES Portal URL : http://localhost:9765/portal {portal.site.deployer}
+TID: [0] [] [2014-09-17 18:33:49,276]  WARN {org.jaggeryjs.hostobjects.db.DatabaseHostObject} -  Error connecting to the database : jdbc:mysql://localhost:3306/greg {org.jaggeryjs.hostobjects.db.DatabaseHostObject}
+java.sql.SQLException: com.mysql.jdbc.Driver
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:254)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:702)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:634)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:188)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:127)
+	at org.jaggeryjs.hostobjects.db.DatabaseHostObject.jsConstructor(DatabaseHostObject.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:392)
+	at org.mozilla.javascript.BaseFunction.construct(BaseFunction.java:343)
+	at org.mozilla.javascript.ScriptRuntime.newObject(ScriptRuntime.java:2349)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c1._c_getDatabaseConnection_1(/portal/apis/gov-sol/db.jag:7)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c1.call(/portal/apis/gov-sol/db.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:74)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0._c_getMySQLData_1(/portal/apis/gov-sol/gitContributors.jag:15)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0.call(/portal/apis/gov-sol/gitContributors.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:74)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0._c_getContributors_2(/portal/apis/gov-sol/gitContributors.jag:32)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0.call(/portal/apis/gov-sol/gitContributors.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:74)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0._c_script_0(/portal/apis/gov-sol/gitContributors.jag:60)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0.call(/portal/apis/gov-sol/gitContributors.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0.call(/portal/apis/gov-sol/gitContributors.jag)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0.exec(/portal/apis/gov-sol/gitContributors.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:432)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:379)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:177)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:161)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:57)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:246)
+	... 61 more
+TID: [0] [] [2014-09-17 18:33:49,279] ERROR {org.jaggeryjs.scriptengine.engine.RhinoEngine} -  org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: Error connecting to the database : jdbc:mysql://localhost:3306/greg (/portal/apis/gov-sol/db.jag#7) {org.jaggeryjs.scriptengine.engine.RhinoEngine}
+TID: [0] [] [2014-09-17 18:33:49,279] ERROR {org.jaggeryjs.jaggery.core.manager.WebAppManager} -  org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: Error connecting to the database : jdbc:mysql://localhost:3306/greg (/portal/apis/gov-sol/db.jag#7) {org.jaggeryjs.jaggery.core.manager.WebAppManager}
+org.jaggeryjs.scriptengine.exceptions.ScriptException: org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: Error connecting to the database : jdbc:mysql://localhost:3306/greg (/portal/apis/gov-sol/db.jag#7)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:582)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.exec(RhinoEngine.java:280)
+	at org.jaggeryjs.jaggery.core.manager.WebAppManager.execute(WebAppManager.java:432)
+	at org.jaggeryjs.jaggery.core.JaggeryServlet.doGet(JaggeryServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:379)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at org.jaggeryjs.jaggery.core.JaggeryFilter.doFilter(JaggeryFilter.java:21)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:177)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:161)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:57)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1653)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.mozilla.javascript.WrappedException: Wrapped org.jaggeryjs.scriptengine.exceptions.ScriptException: Error connecting to the database : jdbc:mysql://localhost:3306/greg (/portal/apis/gov-sol/db.jag#7)
+	at org.mozilla.javascript.Context.throwAsScriptRuntimeEx(Context.java:1754)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:148)
+	at org.mozilla.javascript.FunctionObject.call(FunctionObject.java:392)
+	at org.mozilla.javascript.BaseFunction.construct(BaseFunction.java:343)
+	at org.mozilla.javascript.ScriptRuntime.newObject(ScriptRuntime.java:2349)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c1._c_getDatabaseConnection_1(/portal/apis/gov-sol/db.jag:7)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c1.call(/portal/apis/gov-sol/db.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:74)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0._c_getMySQLData_1(/portal/apis/gov-sol/gitContributors.jag:15)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0.call(/portal/apis/gov-sol/gitContributors.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:74)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0._c_getContributors_2(/portal/apis/gov-sol/gitContributors.jag:32)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0.call(/portal/apis/gov-sol/gitContributors.jag)
+	at org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:74)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0._c_script_0(/portal/apis/gov-sol/gitContributors.jag:60)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0.call(/portal/apis/gov-sol/gitContributors.jag)
+	at org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)
+	at org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3091)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0.call(/portal/apis/gov-sol/gitContributors.jag)
+	at org.jaggeryjs.rhino.portal.apis.gov_sol.c0.exec(/portal/apis/gov-sol/gitContributors.jag)
+	at org.jaggeryjs.scriptengine.engine.RhinoEngine.execScript(RhinoEngine.java:577)
+	... 31 more
+Caused by: org.jaggeryjs.scriptengine.exceptions.ScriptException: Error connecting to the database : jdbc:mysql://localhost:3306/greg
+	at org.jaggeryjs.hostobjects.db.DatabaseHostObject.jsConstructor(DatabaseHostObject.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.mozilla.javascript.MemberBox.invoke(MemberBox.java:126)
+	... 50 more
+Caused by: java.sql.SQLException: com.mysql.jdbc.Driver
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:254)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:182)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:702)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:634)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.getConnection(ConnectionPool.java:188)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:127)
+	at org.jaggeryjs.hostobjects.db.DatabaseHostObject.jsConstructor(DatabaseHostObject.java:140)
+	... 55 more
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:249)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:246)
+	... 61 more
+TID: [0] [] [2014-09-17 18:34:18,269]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:34:18,270]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 User Engagement Server... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:34:18,277]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:34:20,488]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:34:20,488]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:34:20,490]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:34:20,490]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:34:20,514]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:34:20,521]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:34:20,526]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ceo-dash] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:34:20,531]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/markmail] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:34:20,535]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sso] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:34:20,544]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/climate] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:34:20,550]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:34:20,550]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:34:20,550]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:34:20,563]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:34:20,564]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 User Engagement Server... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:34:20,564]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:34:20,564]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:34:20,565]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:34:20,603]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:34:20,608]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : /admin {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [0] [] [2014-09-17 18:34:20,827]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:34:20,827]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:36:21,822]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:36:21,824]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-24-generic, amd64 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:36:21,824]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /usr/lib/jvm/java-6-oracle/jre {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:36:21,824]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.6.0_45 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:36:21,824]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 20.45-b01,Sun Microsystems Inc. {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:36:21,824]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:36:21,824]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/tmp {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:36:21,824]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : denuwanthi, en-US, Asia/Colombo {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:36:22,568]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 46ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [0] [] [2014-09-17 18:36:22,662]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [0] [] [2014-09-17 18:36:25,941]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2014-09-17 18:36:25,941]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2014-09-17 18:36:26,079]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:36:26,079]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:36:26,166]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:36:26,254]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:36:26,254]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:36:26,310]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:36:26,323]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:36:26,323]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:36:29,403]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. {org.apache.shiro.config.IniSecurityManagerFactory}
+TID: [0] [] [2014-09-17 18:36:29,403]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. {org.apache.shiro.config.IniSecurityManagerFactory}
+TID: [0] [] [2014-09-17 18:36:29,404]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. {org.apache.shiro.realm.AuthorizingRealm}
+TID: [0] [] [2014-09-17 18:36:29,404]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. {org.apache.shiro.realm.AuthorizingRealm}
+TID: [0] [] [2014-09-17 18:36:29,411]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/webapps/ROOT] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [0] [] [2014-09-17 18:36:30,247]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ceo-dash].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/ceo-dash] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:36:30,262]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/markmail].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/markmail] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:36:30,277]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/climate].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/climate] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:36:30,770]  INFO {portal.deployer} -  Default gadgets deployed {portal.deployer}
+TID: [0] [] [2014-09-17 18:36:30,910]  INFO {portal.site.deployer} -  Default sites deployed {portal.site.deployer}
+TID: [0] [] [2014-09-17 18:36:30,911]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/portal] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:36:31,185]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/store] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:36:31,235]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sso].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/sso] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:36:31,259]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:36:31,312]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:36:31,372]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v9 - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/client/modules/addressing-1.6.1-wso2v9.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2014-09-17 18:36:31,372]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v9 - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/client/modules/addressing-1.6.1-wso2v9.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2014-09-17 18:36:31,374]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:36:31,374]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:36:31,855]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/ {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:36:31,869]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [0] [] [2014-09-17 18:36:32,002]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9445 {org.wso2.carbon.core.transports.http.HttpsTransportListener}
+TID: [0] [] [2014-09-17 18:36:32,002]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9765 {org.wso2.carbon.core.transports.http.HttpTransportListener}
+TID: [0] [] [2014-09-17 18:36:32,099]  INFO {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent} -  Successfully Initialized Eventing on Registry {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent}
+TID: [0] [] [2014-09-17 18:36:32,382]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11113/jndi/rmi://localhost:10001/jmxrmi {org.wso2.carbon.core.init.JMXServerManager}
+TID: [0] [] [2014-09-17 18:36:32,382]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 User Engagement Server-1.0.0 {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2014-09-17 18:36:32,382]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 12 sec {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2014-09-17 18:36:32,529]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.100.5.90:9445/admin/carbon/ {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [0] [] [2014-09-17 18:36:35,784]  INFO {portal.site.deployer} -  UES Portal URL : http://localhost:9765/portal {portal.site.deployer}
+TID: [0] [] [2014-09-17 18:38:31,682]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:38:31,683]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 User Engagement Server... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:38:31,684]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:38:33,937]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:38:33,937]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:38:33,939]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:38:33,939]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:38:33,960]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:38:33,969]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:38:33,974]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ceo-dash] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:38:33,977]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/markmail] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:38:33,981]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sso] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:38:33,984]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/climate] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:38:33,988]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 18:38:33,988]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:38:33,988]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:38:34,065]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Writing logs  {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [0] [] [2014-09-17 18:38:34,066]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 18:38:34,066]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 User Engagement Server... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:38:34,066]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:38:34,066]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:38:34,067]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:38:34,128]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:38:34,134]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : /admin {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [0] [] [2014-09-17 18:38:34,318]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:38:34,318]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:38:51,944]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:38:51,945]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-24-generic, amd64 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:38:51,945]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /usr/lib/jvm/java-6-oracle/jre {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:38:51,946]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.6.0_45 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:38:51,946]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 20.45-b01,Sun Microsystems Inc. {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:38:51,946]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:38:51,946]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/tmp {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:38:51,946]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : denuwanthi, en-US, Asia/Colombo {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [0] [] [2014-09-17 18:38:52,696]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 32ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [0] [] [2014-09-17 18:38:52,777]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [0] [] [2014-09-17 18:38:56,305]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2014-09-17 18:38:56,305]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [0] [] [2014-09-17 18:38:56,476]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:38:56,476]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:38:56,589]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:38:56,700]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:38:56,700]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:38:56,762]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:38:56,779]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:38:56,779]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [0] [] [2014-09-17 18:38:59,907]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. {org.apache.shiro.config.IniSecurityManagerFactory}
+TID: [0] [] [2014-09-17 18:38:59,907]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. {org.apache.shiro.config.IniSecurityManagerFactory}
+TID: [0] [] [2014-09-17 18:38:59,908]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. {org.apache.shiro.realm.AuthorizingRealm}
+TID: [0] [] [2014-09-17 18:38:59,908]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. {org.apache.shiro.realm.AuthorizingRealm}
+TID: [0] [] [2014-09-17 18:38:59,915]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/webapps/ROOT] {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer}
+TID: [0] [] [2014-09-17 18:39:00,742]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ceo-dash].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/ceo-dash] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:39:00,757]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/markmail].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/markmail] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:39:00,773]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/climate].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/climate] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:39:01,233]  INFO {portal.deployer} -  Default gadgets deployed {portal.deployer}
+TID: [0] [] [2014-09-17 18:39:01,371]  INFO {portal.site.deployer} -  Default sites deployed {portal.site.deployer}
+TID: [0] [] [2014-09-17 18:39:01,372]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/portal] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:39:01,476]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/store] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:39:01,529]  INFO {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sso].File[/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/jaggeryapps/sso] {org.jaggeryjs.jaggery.app.mgt.TomcatJaggeryWebappsDeployer}
+TID: [0] [] [2014-09-17 18:39:01,555]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:39:01,611]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [0] [] [2014-09-17 18:39:01,690]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v9 - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/client/modules/addressing-1.6.1-wso2v9.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2014-09-17 18:39:01,690]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v9 - file:/home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/client/modules/addressing-1.6.1-wso2v9.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [0] [] [2014-09-17 18:39:01,692]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:39:01,692]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 18:39:02,172]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/denuwanthi/G-reg/Feature-LCDashboard/testforESpart/ues/wso2ues-1.0.0/repository/deployment/server/ {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 18:39:02,186]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [0] [] [2014-09-17 18:39:02,320]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9445 {org.wso2.carbon.core.transports.http.HttpsTransportListener}
+TID: [0] [] [2014-09-17 18:39:02,321]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9765 {org.wso2.carbon.core.transports.http.HttpTransportListener}
+TID: [0] [] [2014-09-17 18:39:02,417]  INFO {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent} -  Successfully Initialized Eventing on Registry {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent}
+TID: [0] [] [2014-09-17 18:39:02,699]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11113/jndi/rmi://localhost:10001/jmxrmi {org.wso2.carbon.core.init.JMXServerManager}
+TID: [0] [] [2014-09-17 18:39:02,699]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 User Engagement Server-1.0.0 {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2014-09-17 18:39:02,700]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 12 sec {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [0] [] [2014-09-17 18:39:02,813]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.100.5.90:9445/admin/carbon/ {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [0] [] [2014-09-17 18:39:06,248]  INFO {portal.site.deployer} -  UES Portal URL : http://localhost:9765/portal {portal.site.deployer}
+TID: [0] [] [2014-09-17 19:09:54,405]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 19:09:54,406]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 User Engagement Server... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 19:09:54,407]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 19:09:56,709]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 19:09:56,710]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 19:09:56,714]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 19:09:56,715]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 19:09:56,742]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 19:09:56,748]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/portal] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 19:09:56,751]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ceo-dash] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 19:09:56,754]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/markmail] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 19:09:56,757]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/sso] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 19:09:56,760]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/climate] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 19:09:56,763]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/store] {org.wso2.carbon.webapp.mgt.WebApplication}
+TID: [0] [] [2014-09-17 19:09:56,763]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 19:09:56,763]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 19:09:56,775]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [0] [] [2014-09-17 19:09:56,775]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 User Engagement Server... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 19:09:56,776]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 19:09:56,776]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown {org.apache.axis2.transport.tcp.TCPTransportSender}
+TID: [0] [] [2014-09-17 19:09:56,776]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 19:09:56,828]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 19:09:56,834]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : /admin {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [0] [] [2014-09-17 19:09:57,041]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [0] [] [2014-09-17 19:09:57,041]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}

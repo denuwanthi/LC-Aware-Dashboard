@@ -1,0 +1,176 @@
+<%
+/*
+* Copyright (c) 2005-2014, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+*
+* WSO2 Inc. licenses this file to you under the Apache License,
+* Version 2.0 (the "License"); you may not use this file except
+* in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing,
+* software distributed under the License is distributed on an
+* "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+* KIND, either express or implied. See the License for the
+* specific language governing permissions and limitations
+* under the License.
+*/
+	include("db.jag");
+
+	var git_ID = request.getParameter("gitID");
+	var log = new Log();
+
+	function getMySQLData(){
+
+		var results;
+
+		if(git_ID != null){
+			var query1  ="SELECT * FROM GitSummary WHERE payload_repositoryID='"+git_ID+"';";
+		
+
+			var db = getDatabaseConnection();
+
+			try{
+				var results = db.query(query1);
+	
+			}
+			catch(e){
+				print(e.toString());
+			}
+			finally{
+				db.close();
+			}
+		}
+		return results;
+	}
+
+
+    function getCommitsData(){
+
+		var commitsDataArray ;
+		var graphdata = '';
+		try{
+			var results = getMySQLData();
+			graphdata = results[0].payload_commitLastYear;
+			commitsDataArray = JSON.parse(graphdata);
+			//print(commitsDataArray);
+		}
+		catch(e){
+			print(e.toString());
+		}
+
+
+		
+        return commitsDataArray;
+    }
+	
+	function getDateTime(){
+		var results = getMySQLData();
+		var dateTime;
+		if(results != null){
+			 dateTime = results[0].payload_lastCommitDateTime;
+		}
+		
+		return dateTime;
+	}
+
+	function getProjectName(){
+		var results = getMySQLData();
+		var projectName;
+		if(results != null){
+			projectName = results[0].payload_repositoryID;
+		}
+		return projectName;
+	}
+	
+	
+	function getData(){
+
+		var lastDate = getDate();
+		var a1 = [];
+		var dateArr = [];
+		var arr = getCommitsData();
+
+		for (var i=51;i>=0;i--)
+		{
+			dateArr[i] = lastDate;
+			lastDate = lastDate - (7*24*3600*1000);
+		}
+
+		var count = 0;
+		if(arr != null){
+			arr.forEach(function(element){
+				a1.push([dateArr[count],element]);
+				count++;
+			});
+		}
+		var data = [
+			    {label: "No Of Commits", data: a1, color: "#2f7ed8"}
+			   ]
+
+		return [data];
+	}
+
+	function getDateArray(){
+		var date = [];                                  
+		var dateTime = getDateTime();
+		if(dateTime != null){
+		    date[0] = parseInt(dateTime.substr(0 , 4));
+		    date[1] = parseInt(dateTime.substr(5 , 2));
+		    date[2] = parseInt(dateTime.substr(8 , 2));
+		}
+		return date;
+	}
+
+	function getDate(){
+		var date = getDateArray();
+		return Date.UTC(date[0], date[1], date[2]);
+	}
+
+	var options = {
+		 xaxis: {
+		    mode: "time",
+		    tickSize: [1, "month"],
+		    monthNames: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+		    tickLength: 0,
+		    axisLabel: 'Week',
+		    axisLabelUseCanvas: true,
+		    axisLabelFontSizePixels: 12,
+		    axisLabelFontFamily: 'Verdana, Arial, Helvetica, Tahoma, sans-serif',
+		    axisLabelPadding: 5
+		},
+		yaxis: {
+		    axisLabel: 'No Of Commits',
+		    axisLabelUseCanvas: true,
+		    axisLabelFontSizePixels: 12,
+		    axisLabelFontFamily: 'Verdana, Arial, Helvetica, Tahoma, sans-serif',
+		    axisLabelPadding: 5
+		},
+		series: {
+		    lines: { show: true },
+		    points: {
+		        radius: 3,
+		        show: true,
+		        fill: true
+		    },
+		},
+		grid: {
+		    hoverable: true,
+		    borderWidth: 1
+		},
+		tooltip: true,
+		tooltipOpts: {
+			content: "%x: %s : %y",
+			shifts: {
+				x: 20,
+				y: 0
+			},
+			defaultTheme: true
+		}
+	};
+
+
+   print({'content':getData(),'options':options});
+%>
+ 

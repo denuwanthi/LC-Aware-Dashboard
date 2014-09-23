@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<artifactType type="application/vnd.wso2-project+xml" shortName="project" singularLabel="Project"
+              pluralLabel="Projects"
+              hasNamespace="false" iconSet="10">
+    <storagePath>/projects/@{overview_provider}/@{overview_name}/@{overview_version}</storagePath>
+    <nameAttribute>overview_name</nameAttribute>
+    <ui>
+        <list>
+            <column name="Name">
+                <data type="path" value="overview_name" href="@{storagePath}"/>
+            </column>
+            <column name="Description">
+                <data type="path" value="overview_description" href="@{storagePath}"/>
+            </column>
+            <column name="Version">
+                <data type="path" value="overview_version" href="@{storagePath}"/>
+            </column>
+        </list>
+    </ui>
+    <content>
+        <table name="Overview">
+            <field type="text" required="true">
+                <name>Provider</name>
+            </field>
+            <field type="text" required="true">
+                <name>Name</name>
+            </field>
+            <field type="text" required="true">
+                <name>Version</name>
+            </field>
+            <field type="text-area">
+                <name>Description</name>
+            </field>
+	    <field type="text">
+                <name>Createdtime</name>
+            </field>
+        </table>
+        <table name="Images">
+            <field type="text">
+                <name>Icon</name>
+            </field>
+        </table>
+    <table name="Other">
+            <field type="text">
+                <name>Version Control</name>
+            </field>
+            <field type="text">
+                <name>VCS Resource ID</name>
+            </field>
+            <field type="text">
+                <name>Version Control Type</name>
+            </field>
+            <field type="text">
+                <name>Project Management Tool</name>
+            </field>
+            <field type="text">
+                <name>PMS Resource ID</name>
+            </field>
+            <field type="text">
+                <name>Project Management Tool Type</name>
+            </field>
+            <field type="text">
+                <name>Issue Tracker</name>
+            </field>
+            <field type="text">
+                <name>ISS Resource ID</name>
+            </field>
+            <field type="text">
+                <name>Issue Tracker Type</name>
+            </field>
+        <field type="text">
+                <name>Continuous Integration</name>
+            </field>
+             <field type="text">
+                <name>Continuous Integration Type</name>
+            </field>
+            <field type="text">
+                <name>CIS Resource ID</name>
+            </field>
+            <field type="text">
+                <name>QA Portal Project Id</name>
+            </field>
+        </table>
+    </content>
+
+</artifactType>
+

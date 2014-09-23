@@ -1,0 +1,38 @@
+<script>
+    var isSocial = ('{{isSocial}}' == 'true');
+</script>
+<h4 align="right">{{t "Testing State"}}</h4>
+<div>
+    {{#with asset}} {{#attributes}}
+    {{!--Add the asset_oberview.hbs template--}}
+    {{> asset_overview .}}
+
+</br>
+</br>
+<div class="assetp-properties">
+
+    <ul class="nav nav-tabs" id="assetp-tabs" data-aid="{{../path}}">
+     
+        <li class="active" >
+            <a href="#tab-test" id="test" data-toggle="tab" data-type="basic">{{t "Test Status"}}</a>
+        </li>
+
+
+    </ul>
+
+    <div class="tab-content">
+
+        
+        <div class="tab-pane active" id="tab-test">
+            <div class="content">
+                <div style="text-align:center;"><a class="btn btn-default" target="_blank" href="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/QADashboard/index.jag?projectID={{other_qaportalProjectId}}"> Visit QA Portal Dashboard </a>
+                </div>
+                <iframe height="500px" width="100%" src="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/gadgets/ifr?url=http://ec2-54-83-33-151.compute-1.amazonaws.com:9963/portal/gadgets/test-status/test-status.xml&onRemote=true&productId={{other_qaportalProjectId}}&productVersionId={{overview_name}}"></iframe>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+{{/attributes}} {{/with}}
+</div>

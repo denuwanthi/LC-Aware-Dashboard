@@ -1,0 +1,2426 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.system' value='true'/>
+    <property name='p2.timestamp' value='1408095169497'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='424'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.app' version='1.3.100.v20120522-1841'>
+      <properties size='1'>
+        <property name='download.size' value='86391'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.properties.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='26269'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.store.modules.ues' version='1.2.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='6161'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='rampart-core' version='1.6.1.wso2v13-SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='175213'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.custom.lifecycles.history.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='16928'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.store.modules.sso' version='1.2.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='6902'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.mgt.core' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='15954'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='saxon.bps' version='9.0.0.x-wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='2607944'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.ndatasource.rdbms' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='23564'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.user.profile' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='21842'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.user.mgt.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='968'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='13835'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.felix.gogo.command' version='0.8.0.v201108120515'>
+      <properties size='1'>
+        <property name='download.size' value='57580'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.contentsearch.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='961'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.search.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='266072'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf.identity' version='3.1.100.v20110531-2218'>
+      <properties size='1'>
+        <property name='download.size' value='51441'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.modules.uuid' version='1.0.0'>
+      <properties size='1'>
+        <property name='download.size' value='4022'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.application.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='804'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.properties' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='16417'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='poi-scratchpad' version='3.9.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='3101027'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.event' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='822'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.core' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='87212'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.mgt.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='172292'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.social.core' version='1.1.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='10758'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.module.mgt.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='935'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.application.mgt.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='16318'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tomcat.fragment.dummy' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='5311'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.sso.saml.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='199212'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='jaxb' version='2.2.5.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='3181505'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tomcat.patch' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='465321'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.menu.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='6082'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='jboss-logging' version='3.1.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='50704'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sat4j.pb' version='2.3.0.v20110329'>
+      <properties size='1'>
+        <property name='download.size' value='140721'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.api' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='124688'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.core.bootup.validator' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='25278'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.webapp.mgt.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='4712'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.email.verification.ui' version='4.2.0'>
+      <properties size='1'>
+        <property name='download.size' value='10629'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.application.authenticator.basicauth.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='850'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.console' version='1.0.300.v20110502-1955'>
+      <properties size='1'>
+        <property name='download.size' value='26964'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='solr' version='1.4.1.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='2972081'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='marshalling' version='1.3.6.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='307216'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='poi' version='3.9.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='1872432'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi' version='3.8.1.v20120830-144521'>
+      <properties size='1'>
+        <property name='download.size' value='1396459'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='backport-util-concurrent' version='3.1.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='338331'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.security.mgt.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='244059'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.core.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='964'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='wss4j' version='1.5.11.wso2v7-SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='2769374'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.user.profile.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='931'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.core' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='974'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.social.sql' version='1.1.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='19903'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.registry.extensions' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='163702'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.redirector.servlet.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='16441'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.jaggery.app.mgt.stub' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='34335'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='commons-httpclient' version='3.1.0.wso2v2'>
+      <properties size='1'>
+        <property name='download.size' value='568561'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.metadata.repository' version='1.2.0.v20110511-1359'>
+      <properties size='1'>
+        <property name='download.size' value='115717'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.security' version='1.1.100.v20120522-1841'>
+      <properties size='1'>
+        <property name='download.size' value='107460'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.event.client.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='510781'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='slf4j' version='1.5.10.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='32031'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.email.verification.stub' version='4.2.0'>
+      <properties size='1'>
+        <property name='download.size' value='45328'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.extensionlocation' version='1.2.100.v20110510'>
+      <properties size='1'>
+        <property name='download.size' value='34562'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.idp.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='815'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.store.modules.rxt' version='1.2.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='17971'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tomcat-el-api' version='7.0.52.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='44645'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.custom.lifecycles.checklist' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='24189'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.extensions.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='63900'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.authenticator.proxy' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='9521'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.jobs' version='3.5.300.v20120622-204750'>
+      <properties size='1'>
+        <property name='download.size' value='92507'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.generic.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='525261'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.search.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='158091'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.jsp.jasper' version='1.0.400.v20120522-2049'>
+      <properties size='1'>
+        <property name='download.size' value='28280'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.felix.gogo.runtime' version='0.8.0.v201108120515'>
+      <properties size='1'>
+        <property name='download.size' value='80002'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher' version='1.3.0.v20120522-1813'>
+      <properties size='1'>
+        <property name='download.size' value='49283'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.i18n' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='6204'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.governance.metadata.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='1018'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.frameworkadmin.equinox' version='1.0.400.v20120428-0117'>
+      <properties size='1'>
+        <property name='download.size' value='62579'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.sso.saml' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='1045660'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.search.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='957'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.common.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='28412'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.deployment' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='11711'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.roles.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='11055'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.webapp.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='126270'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.publisher' version='1.2.0.v20110511'>
+      <properties size='1'>
+        <property name='download.size' value='102065'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.security.mgt.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='1891993'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='compass' version='2.0.1.wso2v2'>
+      <properties size='1'>
+        <property name='download.size' value='5714032'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.director.app' version='1.0.300.v20110505'>
+      <properties size='1'>
+        <property name='download.size' value='47303'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.application.mgt.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='284755'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.ndatasource.common' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='7507'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.idp.mgt.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='983'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jaggeryjs.modules.process' version='1.0.0'>
+      <properties size='1'>
+        <property name='download.size' value='5509'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='wsdl4j' version='1.6.2.wso2v4'>
+      <properties size='1'>
+        <property name='download.size' value='192947'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.common.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='48039'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.ws' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='976'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.info.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='338458'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.common' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='48405'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.roles.mgt.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='84561'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.scriptengine' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='49326'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.resource.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='885211'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='jdom' version='1.0.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='149174'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.simpleconfigurator' version='1.0.301.v20120828-033635'>
+      <properties size='1'>
+        <property name='download.size' value='40704'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.artifact.repository' version='1.1.100.v20110519'>
+      <properties size='1'>
+        <property name='download.size' value='132450'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.directorywatcher' version='1.0.300.v20110502-1955'>
+      <properties size='1'>
+        <property name='download.size' value='32570'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.console' version='1.0.0.v20120522-1841'>
+      <properties size='1'>
+        <property name='download.size' value='111184'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.authenticator.saml2.sso.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='982'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.ws.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='725371'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.application.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='70529'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='commons-io' version='2.0.0.wso2v2'>
+      <properties size='1'>
+        <property name='download.size' value='155573'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.ui.menu.registry' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='4757'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='wso2-uri-templates' version='1.6.2'>
+      <properties size='1'>
+        <property name='download.size' value='17539'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='axiom' version='1.2.11.wso2v5-SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='1629667'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.repository.tools' version='2.0.100.v20110512-1320'>
+      <properties size='1'>
+        <property name='download.size' value='232677'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.relations.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='31503'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.wsdltool' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='11549'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='httpcore' version='4.1.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='179120'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jaggeryjs.modules.handlebars' version='1.0.0'>
+      <properties size='1'>
+        <property name='download.size' value='18302'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.registry.eventing' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='25806'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.hostobjects.file' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='15969'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.tenant.common.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='1014'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.associations.dependencies.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='963'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.servlet.jsp' version='2.0.0.v200806031607'>
+      <properties size='1'>
+        <property name='download.size' value='62710'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.security.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='839'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='commons-cli' version='1.2.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='35413'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.publisher.eclipse' version='1.0.0.v20110511'>
+      <properties size='1'>
+        <property name='download.size' value='198211'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.server.admin.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='180868'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.ui.menu' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='893'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.tenant.throttling.agent' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='894'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.repository' version='2.1.0.v20110601'>
+      <properties size='1'>
+        <property name='download.size' value='127837'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jaggeryjs.server' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='1370'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.server.admin' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='60379'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jaggeryjs' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='804'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.qpid.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='95391'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.ds' version='1.4.0.v20120522-1841'>
+      <properties size='1'>
+        <property name='download.size' value='194030'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.garbagecollector' version='1.0.200.v20110510'>
+      <properties size='1'>
+        <property name='download.size' value='24987'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='abdera' version='1.0.0.wso2v3'>
+      <properties size='1'>
+        <property name='download.size' value='1108934'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.ndatasource.core' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='47640'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.claim.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='832'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.securevault' version='1.0.0.wso2v2'>
+      <properties size='1'>
+        <property name='download.size' value='80183'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.transport.ecf' version='1.0.100.v20110902-0807'>
+      <properties size='1'>
+        <property name='download.size' value='38870'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.event.client' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='513383'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='wsdl-validator' version='1.2.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='7442746'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.security.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='145622'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.jaggery.app.mgt' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='30885'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.hostobjects.db' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='15754'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='geronimo-saaj_1.3_spec' version='1.0.0.wso2v3'>
+      <properties size='1'>
+        <property name='download.size' value='25360'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='hazelcast' version='3.0.1.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='2405428'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.social.core' version='1.1.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='5056'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='jsr107cache' version='1.1.0.wso2v3'>
+      <properties size='1'>
+        <property name='download.size' value='9343'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.resource.properties' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='886'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.api' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='14026'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.email.verification' version='4.2.0'>
+      <properties size='1'>
+        <property name='download.size' value='19229'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.generic.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='332946'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ehcache' version='1.5.0.wso2v3'>
+      <properties size='1'>
+        <property name='download.size' value='252038'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.claim.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='26766'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.keystore.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='930679'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.governance.metadata.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='1004'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='jdbc-pool' version='7.0.34.wso2v2'>
+      <properties size='1'>
+        <property name='download.size' value='154874'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.application.mgt.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='900'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.eventing' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='63797'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.runtime' version='3.8.0.v20120521-2346'>
+      <properties size='1'>
+        <property name='download.size' value='75328'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='commons-pool' version='1.5.6.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='95794'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.sat4j.core' version='2.3.0.v20110329'>
+      <properties size='1'>
+        <property name='download.size' value='210701'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='opencsv' version='1.8.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='24780'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.common' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='53702'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.osgi.services' version='3.3.100.v20120522-1822'>
+      <properties size='1'>
+        <property name='download.size' value='83083'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.feature.mgt.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='741240'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.store' version='1.2.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='22816761'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.application.mgt.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='339839'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tomcat-servlet-api' version='7.0.52.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='192728'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.metadata' version='2.1.0.v20110510'>
+      <properties size='1'>
+        <property name='download.size' value='339088'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.authenticator.saml2.sso.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='34624'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.securevault' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='15910'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.idp.mgt.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='16151'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.lcm.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='222081'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.core.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='1026'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.contenttype' version='3.4.200.v20120523-2004'>
+      <properties size='1'>
+        <property name='download.size' value='93177'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.info.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='64007'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.custom.lifecycles.checklist.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='114977'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.custom.lifecycles.checklist.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='29961'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='js' version='1.7.0.R4wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='1140069'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ajaxtags' version='1.3.0.beta-rc7-wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='432054'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jaggeryjs.modules.uuid' version='1.0.0'>
+      <properties size='1'>
+        <property name='download.size' value='5484'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='opensaml2' version='2.4.1.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='5620420'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.user.mgt.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='508803'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tomcat' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='24747'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.hostobjects.stream' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='5827'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.governance.lifecycle.management.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='5151'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='commons-fileupload' version='1.2.2.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='54790'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.community.features.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='990'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.claim.mgt.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='928'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.authenticator.saml2.sso' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='56488'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.frameworkadmin' version='2.0.100.v20120606-175127'>
+      <properties size='1'>
+        <property name='download.size' value='36191'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.redirector.servlet.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='40694'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.event.common' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='947'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.usage.agent' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='58471'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.core.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='975'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='3315494'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.cache.wso2' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='81820'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.sso.redirector.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='220553'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='woden' version='1.0.0.M8-wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='359999'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.application.authentication.framework' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='129300'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.hostobjects.log' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='6570'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.google.gson' version='2.1.0'>
+      <properties size='1'>
+        <property name='download.size' value='180110'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.indexing' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='116402'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.registry' version='3.5.200.v20120522-1841'>
+      <properties size='1'>
+        <property name='download.size' value='184238'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.sso.saml' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='857'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.core' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='844'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.webapp.deployer' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='6247'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='commons-lang' version='2.6.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='279726'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.tenant.common' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='839'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.ui.menu.general' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='6497'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.store.modules.permission' version='1.2.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='7555'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='jettison' version='1.3.4.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='77784'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.store.modules.claims' version='1.2.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='1919'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.dispatcher' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='11217'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='authenticator' version='0.7.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='10014'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.idp.mgt.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='728387'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tomcat.ext' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='59389'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.jaggery.deployer' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='6500'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.extensions.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='595692'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.captcha.mgt' version='4.2.0'>
+      <properties size='1'>
+        <property name='download.size' value='14453'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.user.profile' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='837'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.social.sql' version='1.1.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='5057'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='httpclient' version='4.1.1.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='528136'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='h2-database-engine' version='1.2.140.wso2v3'>
+      <properties size='1'>
+        <property name='download.size' value='2694068'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.hostobjects.registry' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='26171'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jaggeryjs.modules.caramel' version='1.0.1'>
+      <properties size='1'>
+        <property name='download.size' value='17268'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='rampart-trust' version='1.6.1.wso2v13-SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='133367'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.wsdltool.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='18726'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.generic' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='26992'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='xmlbeans' version='2.3.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='2699509'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='XmlSchema' version='1.4.7.wso2v2'>
+      <properties size='1'>
+        <property name='download.size' value='141611'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.hostobjects.xhr' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='14748'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.user.mgt.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='972'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.lcm.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='169553'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.base' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='28881'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.relations' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='20743'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.sso.saml.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='271856'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='json-simple' version='1.1.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='18633'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='kaptcha' version='2.3.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='438346'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='geronimo-stax-api_1.0_spec' version='1.0.1.wso2v2'>
+      <properties size='1'>
+        <property name='download.size' value='684184'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tiles-jsp' version='2.0.5.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='464803'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.sso.saml.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='178593'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.osgi.security' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='7175'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.queuing' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='6883'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.list' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='82437'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.mgt.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='118844'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.event.core' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='86160'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.application.upload' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='8648'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.application.authenticator.basicauth' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='12818'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='poi-ooxml' version='3.9.0.wso2v2'>
+      <properties size='1'>
+        <property name='download.size' value='5430651'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='httpclient' version='4.2.5.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='435334'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.extensions' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='888'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.user.core' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='392821'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='commons-codec' version='1.4.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='52434'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='jgroups' version='3.0.6.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='1743060'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.user.profile.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='937'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.relations.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='94756'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf' version='3.1.300.v20110531-2218'>
+      <properties size='1'>
+        <property name='download.size' value='93249'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.um.ws.api.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='1023036'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.authenticator.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='137696'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='commons-collections' version='3.2.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='577096'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.simpleconfigurator.manipulator' version='2.0.0.v20110808-1657'>
+      <properties size='1'>
+        <property name='download.size' value='24055'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.resource.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='830057'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.event.ws' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='51767'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='45342'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.framework.exporter' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='5856'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.store.modules.utils' version='1.2.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='13649'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.module.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='24633'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='ant' version='1.7.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='1306617'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.resource.properties.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='945'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.application.authentication.framework.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='3257'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.store.modules.event' version='1.2.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='6320'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.user.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='71640'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.user.store.configuration.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='606124'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.http.helper' version='1.1.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='24337'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.ui.menu.governance' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='905'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.updatechecker' version='1.1.200.v20110502-1955'>
+      <properties size='1'>
+        <property name='download.size' value='16801'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='axis2' version='1.6.1.wso2v11-SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='8765058'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.hostobjects.web' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='24051'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.utils' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='241025'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.resource.properties.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='954'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf.filetransfer' version='5.0.0.v20110531-2218'>
+      <properties size='1'>
+        <property name='download.size' value='50501'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.event.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='301165'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.mashup.javascript.hostobjects.registry' version='4.2.0'>
+      <properties size='1'>
+        <property name='download.size' value='18328'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.admin.api' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='20801'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.store.modules.login' version='1.2.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='6744'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.util' version='1.0.400.v20120522-2049'>
+      <properties size='1'>
+        <property name='download.size' value='78023'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.core.common' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='1776'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.addressing' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='35695'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.user.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='800'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.servlet' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='7669'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.application.deployer' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='75367'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='rome' version='0.9.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='247433'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.hostobjects.uri' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='6395'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.ui.menu.governance' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='8438'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.updatesite' version='1.0.300.v20110510'>
+      <properties size='1'>
+        <property name='download.size' value='82535'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.store.jaggery-scxml-executors' version='1.0.0'>
+      <properties size='1'>
+        <property name='download.size' value='57335'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.cluster.mgt.core' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='15016'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.core.commons.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='156560'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.mashup.utils' version='4.2.0'>
+      <properties size='1'>
+        <property name='download.size' value='11961'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.security.mgt.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='989'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.jaggery.core' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='59916'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.touchpoint.natives' version='1.0.300.v20110502-1955'>
+      <properties size='1'>
+        <property name='download.size' value='50202'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.core.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='17351'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.sso.saml.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='976'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.http.servlet' version='1.1.300.v20120522-1841'>
+      <properties size='1'>
+        <property name='download.size' value='45070'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.user.store.configuration.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='175749'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.ws.api' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='44978'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.core' version='2.1.0.v20110502-1955'>
+      <properties size='1'>
+        <property name='download.size' value='70810'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.lcm' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='32544'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javasysmon' version='0.3.3.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='88901'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.webapp.mgt.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='349576'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.user.store.configuration' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='20298'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.feature.mgt.services' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='40284'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.server.admin.common' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='9397'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.sts.store' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='21220'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.event.common' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='11390'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tomcat-jsp-api' version='7.0.52.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='82273'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.launcher.gtk.linux.x86' version='1.1.200.v20120522-1813'>
+      <properties size='1'>
+        <property name='download.size' value='75246'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.event.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='2391'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.jarprocessor' version='1.0.200.v20110502-1955'>
+      <properties size='1'>
+        <property name='download.size' value='67018'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.felix.gogo.shell' version='0.8.0.v201110170705'>
+      <properties size='1'>
+        <property name='download.size' value='60824'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jaggeryjs.ui' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='966'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.store.modules.registration' version='1.2.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='6300'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.core' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='829'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.core.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='932'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.store.modules.lifecycle' version='1.2.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='9003'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='httpcore' version='4.3.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='278147'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.search' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='51313'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.hostobjects.feed' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='17108'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.info' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='34112'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='json' version='1.0.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='43103'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.core.services' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='59681'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.hostobjects.xslt' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='10287'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.extensions.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='899'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='antlr' version='3.2.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='447832'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.event.admin' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='14389'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.governance.metadata' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='878'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.application.common' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='93134'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.security.mgt.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='1904'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.jsdt.debug.transport' version='1.0.100.v201109150330'>
+      <properties size='1'>
+        <property name='download.size' value='24602'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.feature.mgt.core' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='45079'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.core.common' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='951'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jdt.core.compiler.batch' version='3.9.1.v20130905-0837'>
+      <properties size='1'>
+        <property name='download.size' value='1830791'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.idp.mgt.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='236805'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.concurrent' version='1.0.300.v20120522-2049'>
+      <properties size='1'>
+        <property name='download.size' value='21131'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.redirector.servlet' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='12180'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='rampart-policy' version='1.6.1.wso2v13-SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='167524'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='axis2-transport-jms' version='1.6.1.wso2v11-SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='90368'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.filetransfer' version='3.2.0.v20110531-2218'>
+      <properties size='1'>
+        <property name='download.size' value='126823'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.event.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='986'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.tenant.usage.agent' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='905'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.webapp.list.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='247028'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.governance.lifecycle.management.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='1027'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.extensions.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='11792'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.extensions' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='259101'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.user.store.configuration.deployer' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='13462'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.throttling.agent' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='68711'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.jsdt.debug.rhino.debugger' version='1.0.300.v201109150503'>
+      <properties size='1'>
+        <property name='download.size' value='71086'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.core' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='766414'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.roles.mgt.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='151543'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.store.modules.store' version='1.2.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='10048'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.social' version='1.1.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='4963'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.client' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='12723'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.identity.authenticator.saml2.sso.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='949'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.authenticator.saml2.sso.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='34862'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.feature.mgt.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='296715'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.community.features.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='988'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.associations.dependencies.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='958'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.tenant.theme.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='20490'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.governance.wsdltool.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='37006'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='neethi' version='2.0.4.wso2v4'>
+      <properties size='1'>
+        <property name='download.size' value='28339'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.servlet' version='3.0.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='170438'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.base' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='17755'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.registry.core.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='960'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='wadl-core' version='1.1.3.wso2v2'>
+      <properties size='1'>
+        <property name='download.size' value='2779699'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.throttling.agent.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='31455'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.user.mgt.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='560894'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.user.api' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='20426'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.common' version='3.6.100.v20120522-1841'>
+      <properties size='1'>
+        <property name='download.size' value='106763'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.core' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='1859951'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.store.sso.common' version='1.2.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='13190'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='commons-dbcp' version='1.4.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='154934'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.governance.lifecycle.management' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='886'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.claim.mgt.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='4439'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.claim.mgt.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='109846'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.properties.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='110638'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.tenant.common.server' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='18342'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.store.styles' version='1.2.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='4906'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.engine' version='2.1.0.v20110511'>
+      <properties size='1'>
+        <property name='download.size' value='184849'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.jaggery.app.mgt.ui' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='529479'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.event.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='255089'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='maven-scm' version='1.7.0.wso2v2'>
+      <properties size='1'>
+        <property name='download.size' value='2123663'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jaggeryjs.modules.markdown' version='1.0.0'>
+      <properties size='1'>
+        <property name='download.size' value='18247'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.user.mgt.common' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='12100'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.resource' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='88095'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tomcat-catalina-ha' version='7.0.52.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='134252'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.server.admin.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='45966'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.authenticator.saml2.sso.common' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='60156'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.logging' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='420840'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='commons-scxml' version='0.9.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='693211'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.preferences' version='3.5.0.v20120522-1841'>
+      <properties size='1'>
+        <property name='download.size' value='126763'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.tenant.deployment' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='813'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='axis2-json' version='1.6.1.wso2v11-SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='60636'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.core.expressions' version='3.4.401.v20120627-124442'>
+      <properties size='1'>
+        <property name='download.size' value='88236'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.registry.ws.client' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='33918'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.filetransfer.httpclient' version='4.0.200.v20120319-0616'>
+      <properties size='1'>
+        <property name='download.size' value='72923'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.p2.touchpoint' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='10530'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.core.common' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='7862'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.director' version='2.1.0.v20110504-1715'>
+      <properties size='1'>
+        <property name='download.size' value='95071'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.user.profile.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='57623'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.touchpoint.eclipse' version='2.1.0.v20110511-wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='119254'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.jaggery.tools' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='14661'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='annogen' version='0.1.0.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='255349'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.jaggeryjs.modules.carbon' version='1.1.0'>
+      <properties size='1'>
+        <property name='download.size' value='21964'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.identity.user.profile.stub' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='137362'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.store.admin.styles' version='1.2.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='138772'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='infinispan-core' version='5.1.2.wso2v1'>
+      <properties size='1'>
+        <property name='download.size' value='2591264'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.wso2.carbon.core.runtime' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='1677'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='jstl' version='1.2.1.wso2v2'>
+      <properties size='1'>
+        <property name='download.size' value='436270'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='tomcat' version='7.0.52.wso2v3'>
+      <properties size='1'>
+        <property name='download.size' value='3684649'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.idp.mgt' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='65318'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.hostobjects.jaggeryparser' version='0.9.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='7445'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.wso2.carbon.claim.mgt.ui' version='4.3.0.SNAPSHOT'>
+      <properties size='1'>
+        <property name='download.size' value='254227'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.jaggeryjs.modules.process' version='1.0.0'>
+      <properties size='1'>
+        <property name='download.size' value='4742'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

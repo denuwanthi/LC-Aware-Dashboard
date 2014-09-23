@@ -1,0 +1,6 @@
+09-15 18:33:38 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "UM_USER" not found; SQL statement:
+select * from UM_USER [42102-140]
+09-15 18:37:34 jdbc[27]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "SP_APP" not found; SQL statement:
+SELECT ID FROM SP_APP [42102-140]

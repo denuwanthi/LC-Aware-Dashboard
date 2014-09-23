@@ -1,0 +1,3 @@
+09-15 18:33:56 jdbc[2]: SQLException
+org.h2.jdbc.JdbcSQLException: Table "ES_SOCIAL" not found; SQL statement:
+select * from ES_SOCIAL [42102-140]

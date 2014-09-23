@@ -1,0 +1,69 @@
+<script>
+    var isSocial = ('{{isSocial}}' == 'true');
+</script>
+<h4 align="right">{{t "Development State"}}</h4>
+<div>
+    {{#with asset}} {{#attributes}}
+    {{!--Add the asset_oberview.hbs template--}}
+    {{> asset_overview .}}
+
+</br>
+</br>
+<div class="assetp-properties">
+    <!--Add three main sections for dev state-->
+    <ul class="nav nav-tabs" id="assetp-tabs" data-aid="{{../path}}">
+        <li class="active">
+            <a href="#tab-source" data-toggle="tab" data-type="basic">{{t "Source Status "}}</a>
+        </li>
+        <li>
+            <a href="#tab-commit" data-toggle="tab" data-type="basic">{{t "Top Contributor "}}</a>
+        </li>
+        <li>
+            <a href="#tab-build" data-toggle="tab" data-type="basic">{{t "Build Status"}}</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+
+        <div class="tab-pane active" id="tab-source">
+            <div class="content">
+                
+                <iframe height=500px width="100%" src="http://localhost:9765/gadgets/ifr?url=http://localhost:9765/portal/gadgets/top-contributors/top-contributors.xml&onRemote=true&gitID=carbon-governance"></iframe>
+
+            </div>
+            <div class="content">
+                <iframe height=500px width="100%" src="http://localhost:9765/gadgets/ifr?url=http://localhost:9765/portal/gadgets/git-commit-summary/git-commit-summary.xml&onRemote=true&gitID=carbon-governance"></iframe>
+            </div>
+            <div class="content">
+                <iframe height=500px width="100%" src="http://localhost:9765/gadgets/ifr?url=http://localhost:9765/portal/gadgets/git-project-summary/git-project-summary.xml&onRemote=true&gitID=carbon-governance"></iframe>
+            </div>
+            <div class="content">
+                <iframe height=500px width="100%" src="http://localhost:9765/gadgets/ifr?url=http://localhost:9765/portal/gadgets/git-commit-details/git-commit-details.xml&onRemote=true&gitID=carbon-governance"></iframe>
+            </div>
+
+                 {{!-- <div class="content">
+                    
+                    <iframe height=500px width="100%"  src="http://localhost:9765/gadgets/ifr?url=http://localhost:9765/portal/gadgets/line-plus-bar-chart/line-plus-bar-chart.xml"></iframe>
+                </div> --}}
+            </div>
+            <div class="tab-pane " id="tab-commit">
+                <div class="content">
+                    <div style="text-align:center;"><a class="btn btn-default" target="_blank" href="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/source-code-dashboard/?gitID={{overview_name}}"> Visit Source Coverage Dashboard </a>
+                    </div>
+                    <iframe height=500px width="100%" src="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/gadgets/ifr?url=http://ec2-54-83-33-151.compute-1.amazonaws.com:9963/portal/gadgets/git-project-summary/git-project-summary.xml&onRemote=true&gitID={{overview_name}}"></iframe>
+                </div>
+            </div>
+            <div class="tab-pane " id="tab-build">
+                <div class="content">
+                    <div style="text-align:center;"><a class="btn btn-default" target="_blank" href="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/build-dashboard/?jenkinsURL={{other_continuousIntegration}}"> Visit Build Coverage Dashboard </a>
+                    </div>
+                    <iframe height=500px width="100%" src="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/gadgets/ifr?url=http://ec2-54-83-33-151.compute-1.amazonaws.com:9963/portal/gadgets/jenkins-project-summary/jenkins-project-summary.xml&onRemote=true&jenkinsURL={{other_continuousIntegration}}"></iframe>
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </div>
+    {{/attributes}} {{/with}}
+</div>

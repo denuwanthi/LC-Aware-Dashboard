@@ -1,0 +1,120 @@
+<script>
+    var isSocial = ('{{isSocial}}' == 'true');
+</script>
+{{dump .}}
+<div>
+    {{#with asset}} {{#attributes}}
+
+    <div class="row">
+        <div class="span12">
+            <h3>{{overview_name}}</h3>
+            <table width="100%" class="table table-striped table-hover">
+
+                <tr>
+                    <td>{{t "Name"}}</td>
+                    <td>{{overview_name}}</td>
+                </tr>
+                <tr>
+                    <td>{{t "Description"}}</td>
+                    <td>{{overview_description}}</td>
+                </tr>
+                <tr>
+                    <td>{{t "Version"}}</td>
+                    <td>{{overview_version}}</td>
+                </tr>
+                <tr>
+                    <td>{{t "Version Control"}}</td>
+                    <td><a target="_blank" href="{{other_versionControl}}">{{other_versioncontrol}}</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>{{t "Issue Tracker"}}</td>
+                    <td><a target="_blank" href="{{other_issueTracker}}">{{other_issuetracker}} </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>{{t "Project Management Tool"}}</td>
+                    <td><a target="_blank" href="{{other_projectManagementTool}}">{{other_projectmanagementtool}} </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>{{t "Continuous Integration"}}</td>
+                    <td><a target="_blank" href="{{other_continuousIntegration}}">{{other_continuousintegration}} </a>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+
+    </div>
+
+
+
+
+    </br>
+    </br>
+    <div class="assetp-properties">
+
+        <ul class="nav nav-tabs" id="assetp-tabs" data-aid="{{../path}}">
+            <li class="active">
+                <a href="#tab-source" data-toggle="tab" data-type="basic">{{t "Source Status "}}</a>
+            </li>
+            <li>
+                <a href="#tab-commit" data-toggle="tab" data-type="basic">{{t "Top Contributor "}}</a>
+            </li>
+            <li>
+                <a href="#tab-build" data-toggle="tab" data-type="basic">{{t "Build Status"}}</a>
+            </li>
+            <li>
+                <a href="#tab-code" data-toggle="tab" data-type="basic">{{t "Code Coverage"}}</a>
+            </li>
+            <li class="active" >
+                <a href="#tab-test" id="test" data-toggle="tab" data-type="basic">{{t "Test Status"}}</a>
+            </li>
+
+
+        </ul>
+
+        <div class="tab-content">
+
+            <div class="tab-pane active" id="tab-source">
+                <div class="content">
+                    <div style="text-align:center;"><a class="btn btn-default" target="_blank" href="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/source-code-dashboard/?gitID={{overview_name}}"> Visit Source Coverage Dashboard </a>
+                    </div>
+                    <iframe height=500px width="100%" src="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/gadgets/ifr?url=http://ec2-54-83-33-151.compute-1.amazonaws.com:9963/portal/gadgets/git-commit-summary/git-commit-summary.xml&onRemote=true&gitID={{overview_name}}"></iframe>
+                </div>
+            </div>
+            <div class="tab-pane " id="tab-commit">
+                <div class="content">
+                    <div style="text-align:center;"><a class="btn btn-default" target="_blank" href="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/source-code-dashboard/?gitID={{overview_name}}"> Visit Source Coverage Dashboard </a>
+                    </div>
+                    <iframe height=500px width="100%" src="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/gadgets/ifr?url=http://ec2-54-83-33-151.compute-1.amazonaws.com:9963/portal/gadgets/git-project-summary/git-project-summary.xml&onRemote=true&gitID={{overview_name}}"></iframe>
+                </div>
+            </div>
+            <div class="tab-pane " id="tab-build">
+                <div class="content">
+                    <div style="text-align:center;"><a class="btn btn-default" target="_blank" href="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/build-dashboard/?jenkinsURL={{other_continuousIntegration}}"> Visit Build Coverage Dashboard </a>
+                    </div>
+                    <iframe height=500px width="100%" src="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/gadgets/ifr?url=http://ec2-54-83-33-151.compute-1.amazonaws.com:9963/portal/gadgets/jenkins-project-summary/jenkins-project-summary.xml&onRemote=true&jenkinsURL={{other_continuousIntegration}}"></iframe>
+                </div>
+            </div>
+            <div class="tab-pane " id="tab-code">
+                <div class="content">
+                    <div style="text-align:center;"><a class="btn btn-default" target="_blank" href="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/code-coverage-dashboard/?jenkinsURL={{other_continuousIntegration}}"> Visit Code Coverage Dashboard </a>
+                    </div>
+                    <iframe height=500px width="100%" src="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/gadgets/ifr?url=http://ec2-54-83-33-151.compute-1.amazonaws.com:9963/portal/gadgets/jenkins-emma-package-details/jenkins-emma-package-details.xml&onRemote=true&jenkinsURL={{other_continuousIntegration}}"></iframe>
+                </div>
+            </div>
+            <div class="tab-pane active" id="tab-test">
+                <div class="content">
+                    <div style="text-align:center;"><a class="btn btn-default" target="_blank" href="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/QADashboard/index.jag?projectID={{other_qaportalProjectId}}"> Visit QA Portal Dashboard </a>
+                    </div>
+                    <iframe height="500px" width="100%" src="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/gadgets/ifr?url=http://ec2-54-83-33-151.compute-1.amazonaws.com:9963/portal/gadgets/test-status/test-status.xml&onRemote=true&productId={{other_qaportalProjectId}}&productVersionId={{overview_name}}"></iframe>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    {{/attributes}} {{/with}}
+</div>

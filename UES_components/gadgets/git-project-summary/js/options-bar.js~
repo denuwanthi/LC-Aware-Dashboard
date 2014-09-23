@@ -1,0 +1,9 @@
+var options = {
+    bars: {
+        show: true,
+        barWidth: 0.2
+    },
+    xaxis: {
+        mode: "categories"
+    }
+};

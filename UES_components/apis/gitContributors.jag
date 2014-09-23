@@ -1,0 +1,110 @@
+<%
+/*
+* Copyright (c) 2005-2014, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+*
+* WSO2 Inc. licenses this file to you under the Apache License,
+* Version 2.0 (the "License"); you may not use this file except
+* in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing,
+* software distributed under the License is distributed on an
+* "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+* KIND, either express or implied. See the License for the
+* specific language governing permissions and limitations
+* under the License.
+*/ 
+	include("db.jag");
+
+	var git_ID = request.getParameter("gitID");
+
+
+var log = new Log();
+
+	function getMySQLData(){
+
+		var results;
+		if(git_ID != null){
+			var query1  ="SELECT * FROM GitCommittersSummary WHERE payload_repositoryID='"+git_ID+"' ORDER BY payload_numberofCommits DESC;";
+		
+
+			var db = getDatabaseConnection();
+		
+			try{
+				var results = db.query(query1);
+	
+			}
+			catch(e){
+				print(e.toString());
+			}
+			finally{
+				db.close();
+			}
+		}
+		return results;
+	}
+	
+	function getContributors(){
+		var results = getMySQLData();
+		var contributors = [];
+		if(results != null){
+			for(var i = 0 ; i < results.length ; i++){
+				if(i == 5){
+					break;			
+				}
+				contributors.push([i,results[i].payload_committerName]);
+			}
+		}		
+		return contributors;
+	}
+
+	function getNumberOfCommits(){
+		var results = getMySQLData();
+		var commits = [];
+
+		if(results != null){
+			for(var i = 0 ; i < results.length ; i++){
+				if(i == 5){
+					break;			
+				}
+				commits.push([parseInt(results[i].payload_numberofCommits),i]);
+			}
+		}
+		return commits;
+	}
+
+ 	var options = {
+		  series: {
+			lines: {
+			    show: false,
+			    steps: false
+			},
+			bars: {
+			    show: true,
+			    barWidth: 0.4,
+			    fill: 1.0,
+			    align: "center",
+			    horizontal:true	
+			}
+			
+		    },
+		    yaxis: {
+			ticks: getContributors()
+		    },
+		    grid: {
+		            hoverable: true}
+	};
+	function labelFormatter(label, series) {
+		return "<div style='font-size:8pt; text-align:center; padding:2px; color:white;'>" + label + "<br/>" + Math.round(series.percent) + "%</div>";
+	}
+
+	var dataSet = [[
+			{ label: "No Of Commits", data: getNumberOfCommits(), color: "#2f7ed8" }
+		]];
+
+
+   print({'content': dataSet,'options':options});
+%>
+

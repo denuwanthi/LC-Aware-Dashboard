@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <Module>
+    <ModulePrefs title="Details of commits"
+                 author="WSO2 Dev governance"
+                 height="230"
+                 scrolling="true"
+                 tags="charts,bar,visualization,data"
+                 description=" Details of commits">
+        <Require feature="pubsub-2">
+            <Param name="topics">
+                <![CDATA[
+                    <Topic title="reqParam" name="req-param-channel"
+                    description="Subscribes to request params channel" type="object"
+                    subscribe="true"/>
+                ]]>
+            </Param>
+        </Require>
+     </ModulePrefs>
+    <UserPref name="dataSource"
+              display_name="Data Source"
+              default_value="../../Build-Status-Dashboard/apis/gitCommitDetails.jag">
+    </UserPref>
+    <UserPref name="updateGraph"
+              display_name="Update Interval (s)"
+              default_value="No">
+    </UserPref>
+    <Content type="html">
+    <![CDATA[
+
+	 <html>
+	 <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Summary of commits</title>
+		<link rel="stylesheet" href="../../Build-Status-Dashboard/css/jquery.dataTables.css?t=<?= time(); ?>">
+		<link rel="stylesheet" href="../../Build-Status-Dashboard/css/bootstrap-custom.min.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript">		
+			function fetchData(params) {
+				var url = (new gadgets.Prefs()).getString("dataSource")+ "?" + params;
+
+				$.ajax({
+				    url: url,
+				    type: "GET",
+				    dataType: "json",
+				    success: onDataReceived
+				});
+			}
+			function onDataReceived(data) {
+				$('#table').dataTable(data);
+			     
+			}
+			gadgets.HubSettings.onConnect = function () {
+             		gadgets.Hub.subscribe("req-param-channel", callback);
+            };
+            function callback(topic, params, subscriberData) {
+                fetchData(params);
+
+            }
+	    	</script>
+	
+	</head>
+
+	<body>
+		<div style="margin:10px;">	
+			<div id="container">
+				<table cellpadding="0" cellspacing="0" border="0" class="display table table-striped table-hover" id="table"></table>
+			</div>
+		<div>
+	</body>
+	</html>
+
+    ]]>
+</Content>
+</Module>
+
+

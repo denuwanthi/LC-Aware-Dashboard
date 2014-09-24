@@ -102,6 +102,7 @@ var DEFAULT_ASSET_VIEW_STATE = 'published';
             }
             var searchArtifact = options.attributes;
             var temp = [];
+            //Provide the ability to use several LC states as defined in store.json
             for (var index in configs.lifeCycleBehaviour.visibleIn) {
                 searchArtifact.lcState = configs.lifeCycleBehaviour.visibleIn[index];
                 assets = that.manager.search(searchArtifact, paging);

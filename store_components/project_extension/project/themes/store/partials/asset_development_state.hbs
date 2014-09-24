@@ -31,12 +31,12 @@
                 <iframe height=500px width="100%" src="http://localhost:9765/gadgets/ifr?url=http://localhost:9765/portal/gadgets/top-contributors/top-contributors.xml&onRemote=true&gitID=carbon-governance"></iframe>
 
             </div>
-            <div class="content">
+            {{!-- <div class="content">
                 <iframe height=500px width="100%" src="http://localhost:9765/gadgets/ifr?url=http://localhost:9765/portal/gadgets/git-commit-summary/git-commit-summary.xml&onRemote=true&gitID=carbon-governance"></iframe>
-            </div>
-            <div class="content">
+            </div> --}}
+            {{!-- <div class="content">
                 <iframe height=500px width="100%" src="http://localhost:9765/gadgets/ifr?url=http://localhost:9765/portal/gadgets/git-project-summary/git-project-summary.xml&onRemote=true&gitID=carbon-governance"></iframe>
-            </div>
+            </div> --}}
             <div class="content">
                 <iframe height=500px width="100%" src="http://localhost:9765/gadgets/ifr?url=http://localhost:9765/portal/gadgets/git-commit-details/git-commit-details.xml&onRemote=true&gitID=carbon-governance"></iframe>
             </div>
@@ -48,9 +48,7 @@
             </div>
             <div class="tab-pane " id="tab-commit">
                 <div class="content">
-                    <div style="text-align:center;"><a class="btn btn-default" target="_blank" href="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/source-code-dashboard/?gitID={{overview_name}}"> Visit Source Coverage Dashboard </a>
-                    </div>
-                    <iframe height=500px width="100%" src="https://ec2-54-83-33-151.compute-1.amazonaws.com:9643/gadgets/ifr?url=http://ec2-54-83-33-151.compute-1.amazonaws.com:9963/portal/gadgets/git-project-summary/git-project-summary.xml&onRemote=true&gitID={{overview_name}}"></iframe>
+                    <iframe height=500px width="100%" src="http://localhost:9765/gadgets/ifr?url=http://localhost:9765/portal/gadgets/git-project-summary/git-project-summary.xml&onRemote=true&gitID=carbon-governance"></iframe>
                 </div>
             </div>
             <div class="tab-pane " id="tab-build">
